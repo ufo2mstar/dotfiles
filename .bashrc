@@ -10,8 +10,8 @@ esac
 
 
 # https://builderhub.corp.amazon.com/docs/set-up-laptop-macos.html#setup-macos-ssh
-# MAC setup
-export PATH=/usr/local/bin:$PATH
+# # MAC setup
+# export PATH=/usr/local/bin:$PATH
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
@@ -205,7 +205,6 @@ function cd {
   }
  
 # https://medium.com/@iraklis/fixing-dark-blue-colors-on-windows-10-ubuntu-bash-c6b009f8b97c
- 
 LS_COLORS='rs=0:di=1;35:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:';
 export LS_COLORS
  
@@ -263,16 +262,16 @@ function parse_git_dirty {
   fi
 }
  
-export PS1="\[\e[36m\]\d\[\e[m\] \[\e[33m\]\t\[\e[m\] \[\e[32m\]\u\[\e[m\] \[\e[35m\]\`parse_git_branch\`\[\e[m\]:\w\\$ " # with username
+# export PS1="\[\e[36m\]\d\[\e[m\] \[\e[33m\]\t\[\e[m\] \[\e[32m\]\u\[\e[m\] \[\e[35m\]\`parse_git_branch\`\[\e[m\]:\w\\$ " # with username
 export PS1="\[\e[36m\]\d\[\e[m\] \[\e[33m\]\t\[\e[m\]:\[\e[35m\]\`parse_git_branch\`\[\e[m\]\[\e[36m\]\w\[\e[m\]\n\\$ " # with new lines and what not!
 #end
  
  
-#temp
-export mod='/home/narensub/winworkplace/GSFTechApp/GSFTechTransContainerAdapterLambda/src/GSFTechTransContainerAdapterLambdaModel'
-export down='/mnt/c/Users/narensub/Downloads'
-export wh='/mnt/c/Users/narensub/'
-#end
+# #temp
+# export mod='/home/narensub/winworkplace/GSFTechApp/GSFTechTransContainerAdapterLambda/src/GSFTechTransContainerAdapterLambdaModel'
+# export down='/mnt/c/Users/narensub/Downloads'
+# export wh='/mnt/c/Users/narensub/'
+# #end
  
  
  
@@ -308,34 +307,34 @@ rm /tmp/tmpfile
  
 # ==================================================================================
 
-# MAC's
+# # MAC's
 
-# Load rbenv automatically by appending
-# the following to ~/.bash_profile:
+# # Load rbenv automatically by appending
+# # the following to ~/.bash_profile:
 
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
-# https://builderhub.corp.amazon.com/docs/brazil/cli-guide/setup-macos.html
-# /usr/libexec/java_home -V
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home"
-# $JAVA_HOME/bin/java -version
+# # https://builderhub.corp.amazon.com/docs/brazil/cli-guide/setup-macos.html
+# # /usr/libexec/java_home -V
+# export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home"
+# # $JAVA_HOME/bin/java -version
  
-alias bi='brew install'
-alias bri='brew reinstall'
+# alias bi='brew install'
+# alias bri='brew reinstall'
 
-alias tl='tldr'
-alias tlu='tldr --update'
+# alias tl='tldr'
+# alias tlu='tldr --update'
 
-. /usr/local/etc/profile.d/z.sh
-export _Z_CMD="j"
+# . /usr/local/etc/profile.d/z.sh
+# export _Z_CMD="j"
 
-# Load pyenv automatically by appending
-# the following to ~/.bash_profile:
+# # Load pyenv automatically by appending
+# # the following to ~/.bash_profile:
 
-eval "$(pyenv init -)"
+# eval "$(pyenv init -)"
 
-alias ss='sshfs narensub@narensub2-clouddesk.aka.corp.amazon.com:/local/home/narensub ~/cdd'
-ss
+# alias ss='sshfs narensub@narensub2-clouddesk.aka.corp.amazon.com:/local/home/narensub ~/cdd'
+# ss
 
 # ==================================================================================
 
@@ -570,14 +569,19 @@ bwp(){
 # for f in dotfiles/*.sh ; do
 # for f in ./dotfiles/.*.sh ; do
 for f in $HOME/dotfiles/.*.sh ; do
-  cmd="{bash '$f' -H} 2> /dev/null"
+  # cmd="{bash '$f' -H} 2> /dev/null"
+  # cmd="{source '$f'} 2> /dev/null"
+  cmd="source '$f'"
+  # cmd="bash '$f' -H"
   echo $cmd
-  eval $cmd
+  # eval $cmd
+  # eval "{$cmd} 2> /dev/null"
+  eval "{$cmd} 2> /dev/null"
 done
 
 # ----
-alias g='gradle'
-alias gt='gradle test'
+# alias g='gradle'
+# alias gt='gradle test'
 
  
 # #Automatic mwinit and kinit
@@ -600,7 +604,7 @@ alias gt='gradle test'
 #   mwinit -o
 # fi
 
-# Good Cert Check automater
+# #Good Cert Check automater
 # # https://sage.amazon.com/posts/592658
 # kmonday() { /usr/kerberos/bin/kinit -f -l 7d -r 30d; }
 # if ! klist -l; then kmonday; fi
@@ -626,22 +630,22 @@ alias gt='gradle test'
 # check_cert #run automatically
 
 
-# FASD
-eval "$(fasd --init auto)"
+# # FASD
+# eval "$(fasd --init auto)"
  
-alias a='fasd -a'        # any
-alias si='fasd -si'       # show / search / select
-# alias d='fasd -d'        # directory
-alias f='fasd -f'        # file
-alias sd='fasd -sid'     # interactive directory selection
-alias sf='fasd -sif'     # interactive file selection
-alias zd='fasd_cd -d'     # cd, same functionality as j in autojump
-alias zz='fasd_cd -d -i' # cd with interactive selection
+# alias a='fasd -a'        # any
+# alias si='fasd -si'       # show / search / select
+# # alias d='fasd -d'        # directory
+# alias f='fasd -f'        # file
+# alias sd='fasd -sid'     # interactive directory selection
+# alias sf='fasd -sif'     # interactive file selection
+# alias zd='fasd_cd -d'     # cd, same functionality as j in autojump
+# alias zz='fasd_cd -d -i' # cd with interactive selection
 
-# alias u=unalias
-# u z
+# # alias u=unalias
+# # u z
 
-alias p='peco'
+# alias p='peco'
 
 # ==================================================================================
 
@@ -652,43 +656,42 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
  
-# some more ls aliases
-alias ll='ls -GAlF'
-alias la='ls -GA'
-alias l='ls -GCF'
-alias ls='ls -GFh'
+# # some more ls aliases
+# alias ll='ls -GAlF'
+# alias la='ls -GA'
+# alias l='ls -GCF'
+# alias ls='ls -GFh'
 
-alias px='ps aux'
-alias pw='ps auxww'
+# alias px='ps aux'
+# alias pw='ps auxww'
 
-alias pxp='ps aux|peco'
-alias pwp='ps auxww|peco'
-
-alias pxg='ps aux|grep'
-alias pwg='ps auxww|grep'
+# alias pxg='ps aux|grep'
+# alias pwg='ps auxww|grep'
 
 # ------------------------
 
-alias t='tmux'
-alias tls='tmux ls'
-alias tn='tmux new'
-alias tns='tmux new -s' # named session
-alias ta='tmux a'
-alias tat='tmux a -t' # named session
-alias tk='tmux kill-session -t' # named session
+# alias t='tmux'
+# alias tls='tmux ls'
+# alias tn='tmux new'
+# alias tns='tmux new -s' # named session
+# alias ta='tmux a'
+# alias tat='tmux a -t' # named session
+# alias tk='tmux kill-session -t' # named session
 
-alias ppath="tr ':' '\n' <<< '$PATH'"
+# alias ppath="tr ':' '\n' <<< '$PATH'"
 
-export PATH=$HOME/bin/anaconda3/bin:$PATH
+# export PATH=$HOME/bin/anaconda3/bin:$PATH
 
 # ==================================================================================
  
  
-# leave these in the end
-alias d="ssh dev"
-alias dv="ssh dev -vvv"
-alias s='source ~/.bashrc'
- 
+# # leave these in the end
+# alias d="ssh dev"
+# alias dv="ssh dev -vvv"
+
+# if [[ echo $0 == "bash" ]]; then
+alias s='source ~/.bashrc' # todo: write cdd vs macos rule
+
 # to be at the end!
 # To get XMing working we need to add a DISPLAY variable.
 export DISPLAY=:0
@@ -699,23 +702,25 @@ export DISPLAY=:0
 #1. fasd - directory hops
 #2. htop - ps poll
 #3. peco - better grep
+#3.1 fzf - even better peco
 #4. bat - better cat
+#4.1 tac - inverted cat
 #5. tldr - better man
 #6. vim - make a good config file
 
 
-#nvm
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+# #nvm
+# export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# # export NVM_DIR="$HOME/.nvm"
+# # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# nvm use v12
+# # nvm use v12
 
-#rbenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+# #rbenv
+# if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 
 # FZF installs
@@ -746,3 +751,6 @@ alias conf='/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME'
 # echo ".cfg" >> .gitignore
 # conf config --local status.showUntrackedFiles no
 # echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
+alias c="conf"
+alias cs="conf status"
+alias coc="conf commit -m"
