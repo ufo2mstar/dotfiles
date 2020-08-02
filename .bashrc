@@ -145,23 +145,25 @@ fi
 #   echo Agent pid $SSH_AGENT_PID
 # fi
 
-ps -u $(whoami) | grep ssh-agent &> /dev/null
-if [ $? -ne 0 ];then
-    eval $(ssh-agent)
-    ssh-add
-    echo "export SSH_AGENT_PID=$SSH_AGENT_PID" > ~/.agent-profile
-    echo "export SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> ~/.agent-profile
-else
-    source ~/.agent-profile
-fi
-trap 'ssh-agent -k; exit' 0
+# --------
 
-# mwinit?
-# cd ~
-alias cert='./mwinit -o'
+# ps -u $(whoami) | grep ssh-agent &> /dev/null
+# if [ $? -ne 0 ];then
+#     eval $(ssh-agent)
+#     ssh-add
+#     echo "export SSH_AGENT_PID=$SSH_AGENT_PID" > ~/.agent-profile
+#     echo "export SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> ~/.agent-profile
+# else
+#     source ~/.agent-profile
+# fi
+# trap 'ssh-agent -k; exit' 0
+
+# # mwinit?
+# # cd ~
+# alias cert='./mwinit -o'
  
-export PATH=$HOME/.toolbox/bin:$PATH
-export PATH=$HOME/bin:$PATH
+# export PATH=$HOME/.toolbox/bin:$PATH
+# export PATH=$HOME/bin:$PATH
  
  
 # ssh prompt user@host change
@@ -340,7 +342,6 @@ ss
 # SCRIPTS
 
 op(){
-   
   echo "*** Get owlery preview links ***"
   echo
   echo "Whats your cs link?"
@@ -429,117 +430,117 @@ bwp(){
 }
 
 # ==================================================================================
- 
-# configs to Sync!
-# ================
-# reco aliases
- 
-alias brazil-octane='/apollo/env/OctaneBrazilTools/bin/brazil-octane'
-alias bo='/apollo/env/OctaneBrazilTools/bin/brazil-octane'
- 
-alias third-party-promote='~/.toolbox/bin/brazil-third-party-tool promote'
-alias third-party='~/.toolbox/bin/brazil-third-party-tool'
-#end
- 
-# CRUX stuff
-alias crr='cr -r '
- 
-# brazil stuff
-# alias b='brazil'
-alias bv='brazil --version'
-alias bp='brazil prefs'
- 
-alias bre='brazil-runtime-exec'
-alias brc='brazil-recursive-cmd'
- 
-## b build
-alias bb=brazil-build
-alias bba='bb apollo-pkg'
-alias bbt='bb test'
-alias bbs='bb server'
-alias bbp='bb preview'
-alias bbf='bb format'
-alias bbc='bb clean'
-alias bbcs='bb checkstyle'
-alias bbre='bb release'
- 
-### bb synth
-alias bbsy="bb synthesize"
-alias bbsyp="bb synthesize-pipeline"
-alias bbsycf="bb synthesize-cloud-formation"
- 
-## b recursive
-alias brc=brazil-recursive-cmd
-alias bbrc='brazil-recursive-cmd brazil-build'
-alias bball='brc --allPackages'
-alias bbb='brc --allPackages brazil-build'
-alias bbra='bbr apollo-pkg'
- 
-alias bbr='bbrc'
- 
-## b workspace
-alias bw='brazil ws'
-alias bws='bw sync'
-alias bwsm='bw sync --md'
-alias bwc='bw clean'
-alias bwm='bw merge'
-alias bwcr='bw create --root'
-alias bwcn='bw create -n'
-alias bwr='bw remove'
-alias bwrp='bwr --package'
 
-alias bu='brazil ws use'
-alias buv='bu --versionset'
-alias bup='bu --package'
-alias bupl='bu --platform'
-alias bug='bu --gitMode -p'
+# # configs to Sync!
+# # ================
+# # reco aliases
+ 
+# alias brazil-octane='/apollo/env/OctaneBrazilTools/bin/brazil-octane'
+# alias bo='/apollo/env/OctaneBrazilTools/bin/brazil-octane'
+ 
+# alias third-party-promote='~/.toolbox/bin/brazil-third-party-tool promote'
+# alias third-party='~/.toolbox/bin/brazil-third-party-tool'
+# #end
+ 
+# # CRUX stuff
+# alias crr='cr -r '
+ 
+# # brazil stuff
+# # alias b='brazil'
+# alias bv='brazil --version'
+# alias bp='brazil prefs'
+ 
+# alias bre='brazil-runtime-exec'
+# alias brc='brazil-recursive-cmd'
+ 
+# ## b build
+# alias bb=brazil-build
+# alias bba='bb apollo-pkg'
+# alias bbt='bb test'
+# alias bbs='bb server'
+# alias bbp='bb preview'
+# alias bbf='bb format'
+# alias bbc='bb clean'
+# alias bbcs='bb checkstyle'
+# alias bbre='bb release'
+ 
+# ### bb synth
+# alias bbsy="bb synthesize"
+# alias bbsyp="bb synthesize-pipeline"
+# alias bbsycf="bb synthesize-cloud-formation"
+ 
+# ## b recursive
+# alias brc=brazil-recursive-cmd
+# alias bbrc='brazil-recursive-cmd brazil-build'
+# alias bball='brc --allPackages'
+# alias bbb='brc --allPackages brazil-build'
+# alias bbra='bbr apollo-pkg'
+ 
+# alias bbr='bbrc'
+ 
+# ## b workspace
+# alias bw='brazil ws'
+# alias bws='bw sync'
+# alias bwsm='bw sync --md'
+# alias bwc='bw clean'
+# alias bwm='bw merge'
+# alias bwcr='bw create --root'
+# alias bwcn='bw create -n'
+# alias bwr='bw remove'
+# alias bwrp='bwr --package'
 
-## b platform override
-alias bs='brazil setup'
-alias bsps='brazil setup platform-support'
-alias bp12='brazil ws use --platform AL2012'
-alias bp64='brazil ws use --platform RHEL5_64'
+# alias bu='brazil ws use'
+# alias buv='bu --versionset'
+# alias bup='bu --package'
+# alias bupl='bu --platform'
+# alias bug='bu --gitMode -p'
 
-alias bwd='brazil ws --dryrun'
+# ## b platform override
+# alias bs='brazil setup'
+# alias bsps='brazil setup platform-support'
+# alias bp12='brazil ws use --platform AL2012'
+# alias bp64='brazil ws use --platform RHEL5_64'
 
-alias bpcs='brazil-package-cache start'
-alias bpcc='brazil-package-cache enable_edge_cache'
-alias bpce='brazil-package-cache stop' # end
+# alias bwd='brazil ws --dryrun'
 
-# brazil ws --clean
-# brazil-package-cache stop
-# brazil-package-cache enable_edge_cache
-# brazil-package-cache start
-# brazil ws --sync --md
+# alias bpcs='brazil-package-cache start'
+# alias bpcc='brazil-package-cache enable_edge_cache'
+# alias bpce='brazil-package-cache stop' # end
 
-## b sam
-alias sam="brazil-build-tool-exec sam"
-alias smp='sam package'
-alias smd='sam deploy'
-alias smv='sam validate'
-alias smpd='smp && smd'
+# # brazil ws --clean
+# # brazil-package-cache stop
+# # brazil-package-cache enable_edge_cache
+# # brazil-package-cache start
+# # brazil ws --sync --md
 
-#end
+# ## b sam
+# alias sam="brazil-build-tool-exec sam"
+# alias smp='sam package'
+# alias smd='sam deploy'
+# alias smv='sam validate'
+# alias smpd='smp && smd'
+
+# #end
  
  
-# # amz recos
-alias nds='ninja-dev-sync'
-alias ndsv='ninja-dev-sync -v'
-alias ndss='ninja-dev-sync -setup'
-alias ndsl='ninja-dev-sync -list'
+# # # amz recos
+# alias nds='ninja-dev-sync'
+# alias ndsv='ninja-dev-sync -v'
+# alias ndss='ninja-dev-sync -setup'
+# alias ndsl='ninja-dev-sync -list'
  
-alias ki='kinit -f'
-alias mi='mwinit -o'
-alias kd='kdestroy'
+# alias ki='kinit -f'
+# alias mi='mwinit -o'
+# alias kd='kdestroy'
  
-# my aliases
-alias e=emacs
+# # my aliases
+# alias e=emacs
  
-# my aliases
-alias to='toolbox'
-alias tv='toolbox --version'
-alias ti='toolbox install'
-alias tu='toolbox update'
+# # my aliases
+# alias to='toolbox'
+# alias tv='toolbox --version'
+# alias ti='toolbox install'
+# alias tu='toolbox update'
 
 
 # # absolute laziness
@@ -564,8 +565,14 @@ alias tu='toolbox update'
 
 # better yet, run all files within dotfiles
 # https://stackoverflow.com/questions/41079143/run-all-shell-scripts-in-folder
-for f in "$HOME/dotfiles/*.sh"; do  # or wget-*.sh instead of *.sh
-  bash "$f" -H 
+# for f in "$HOME/dotfiles/*.sh"; do
+# for f in "$HOME/dotfiles/*"; do
+# for f in dotfiles/*.sh ; do
+# for f in ./dotfiles/.*.sh ; do
+for f in $HOME/dotfiles/.*.sh ; do
+  cmd="{bash '$f' -H} 2> /dev/null"
+  echo $cmd
+  eval $cmd
 done
 
 # ----
@@ -593,36 +600,30 @@ alias gt='gradle test'
 #   mwinit -o
 # fi
 
-# https://sage.amazon.com/posts/592658
-kmonday() { /usr/kerberos/bin/kinit -f -l 7d -r 30d; }
-
-if ! klist -l; then kmonday; fi
-
-
-# new cert check
-
-secinit(){
-  mwinit -o
-}
-
-check_cert() {
-    KEY_FILE="$HOME/.ssh/id_rsa-cert.pub"
-
-    if [ -f $KEY_FILE ]; then
-        CERT=$(ssh-keygen -Lf $KEY_FILE | awk 'NR==7{print $5}')
-        DATE_NOW=$(date +"%Y-%m-%dT%T")
-
-        if [[ "$DATE_NOW" > "$CERT" ]] ;
-        then
-            echo "zshrc: your midway has expired..."
-            secinit
-        fi
-    else
-        echo "zshrc: your midway has expired..."
-        secinit
-    fi
-}
-check_cert #run automatically
+# Good Cert Check automater
+# # https://sage.amazon.com/posts/592658
+# kmonday() { /usr/kerberos/bin/kinit -f -l 7d -r 30d; }
+# if ! klist -l; then kmonday; fi
+# # new cert check
+# secinit(){
+#   mwinit -o
+# }
+# check_cert() {
+#     KEY_FILE="$HOME/.ssh/id_rsa-cert.pub"
+#     if [ -f $KEY_FILE ]; then
+#         CERT=$(ssh-keygen -Lf $KEY_FILE | awk 'NR==7{print $5}')
+#         DATE_NOW=$(date +"%Y-%m-%dT%T")
+#         if [[ "$DATE_NOW" > "$CERT" ]] ;
+#         then
+#             echo "zshrc: your midway has expired..."
+#             secinit
+#         fi
+#     else
+#         echo "zshrc: your midway has expired..."
+#         secinit
+#     fi
+# }
+# check_cert #run automatically
 
 
 # FASD
@@ -737,7 +738,11 @@ fh() {
 
 # ----------
 
-alias conf='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-echo ".cfg" >> .gitignore
-# config config --local status.showUntrackedFiles no
+# https://www.atlassian.com/git/tutorials/dotfiles
+# reco with the .cfg dir feels like a slightly convinent but painful way because of 
+# the non-default convention from tools that expect to understand the .git dir.
+alias conf='/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME'
+# echo ".git" >> .gitignore
+# echo ".cfg" >> .gitignore
+# conf config --local status.showUntrackedFiles no
 # echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
