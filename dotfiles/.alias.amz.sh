@@ -1,4 +1,4 @@
-printf "loading $0..."
+# printf "loading $0..."
 
 # configs to Sync!
 # ================
@@ -107,4 +107,4 @@ alias tv='toolbox --version'
 alias ti='toolbox install'
 alias tu='toolbox update'
 
-echo "done!"
+# echo "done!"

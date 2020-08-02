@@ -1,10 +1,12 @@
-printf "loading $0..."
+# printf "loading $0..."
 
 # absolute laziness
+# alias a='alias'
 alias cl='clear'
 
 ## alias v='vim'
 alias cd..='cd ..'
+alias al='alias'
 
 ## ls shortcuts
 alias lt='ls -ltah'
@@ -70,19 +72,8 @@ alias conf='/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME'
 # echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
 alias c="conf"
 alias cs="conf status"
+alias ca="conf add"
 alias coc="conf commit -m"
-
-
-# Bash vs Zsh logic: cdd vs macos rule
-printf "\nSourcing for:"
-if [[ echo $0 == "bash" ]]; then
-  echo "Bash"
-  alias s='source ~/.bashrc'
-else
-  echo "Zsh"
-  alias s='source ~/.zshrc'
-fi
-
 
 # to be at the end!
 # To get XMing working we need to add a DISPLAY variable.
@@ -90,4 +81,4 @@ export DISPLAY=:0
 # Run zsh at start up
 # [ -t 1 ] && exec zsh
 
-echo "done!"
+# echo "done!"

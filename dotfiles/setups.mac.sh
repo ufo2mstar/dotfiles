@@ -8,6 +8,6 @@
 #5. tldr - better man
 #6. vim - make a good config file
 
-brew install fswatch
+# brew install fswatch
 
-brew install coreutils
+# brew install coreutils
