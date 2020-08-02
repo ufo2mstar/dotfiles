@@ -1,0 +1,4 @@
+# ignore idea projests
+.idea/*
+build/*
+*.iml
