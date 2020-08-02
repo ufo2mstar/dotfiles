@@ -38,6 +38,12 @@ alias dv="ssh dev -vvv"
 . /usr/local/etc/profile.d/z.sh
 export _Z_CMD="j"
 
+# FZF installs
+# https://sourabhbajaj.com/mac-setup/iTerm/fzf.html
+# brew install fzf
+# /usr/local/opt/fzf/install
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
 # = Languages
 
 # # Load rbenv automatically by appending the following to ~/.bash_profile:

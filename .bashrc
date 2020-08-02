@@ -689,14 +689,14 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 # alias d="ssh dev"
 # alias dv="ssh dev -vvv"
 
-# if [[ echo $0 == "bash" ]]; then
-alias s='source ~/.bashrc' # todo: write cdd vs macos rule
+# # if [[ echo $0 == "bash" ]]; then
+# alias s='source ~/.bashrc' # todo: write cdd vs macos rule
 
-# to be at the end!
-# To get XMing working we need to add a DISPLAY variable.
-export DISPLAY=:0
-# Run zsh at start up
-# [ -t 1 ] && exec zsh
+# # to be at the end!
+# # To get XMing working we need to add a DISPLAY variable.
+# export DISPLAY=:0
+# # Run zsh at start up
+# # [ -t 1 ] && exec zsh
 
 #needs
 #1. fasd - directory hops
@@ -723,11 +723,11 @@ export DISPLAY=:0
 # if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 
-# FZF installs
-# https://sourabhbajaj.com/mac-setup/iTerm/fzf.html
-# brew install fzf
-# /usr/local/opt/fzf/install
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# # FZF installs
+# # https://sourabhbajaj.com/mac-setup/iTerm/fzf.html
+# # brew install fzf
+# # /usr/local/opt/fzf/install
+# [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 # fd - cd to selected directory
 fd() {
@@ -743,14 +743,14 @@ fh() {
 
 # ----------
 
-# https://www.atlassian.com/git/tutorials/dotfiles
-# reco with the .cfg dir feels like a slightly convinent but painful way because of 
-# the non-default convention from tools that expect to understand the .git dir.
-alias conf='/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME'
-# echo ".git" >> .gitignore
-# echo ".cfg" >> .gitignore
-# conf config --local status.showUntrackedFiles no
-# echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
-alias c="conf"
-alias cs="conf status"
-alias coc="conf commit -m"
+# # https://www.atlassian.com/git/tutorials/dotfiles
+# # reco with the .cfg dir feels like a slightly convinent but painful way because of 
+# # the non-default convention from tools that expect to understand the .git dir.
+# alias conf='/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME'
+# # echo ".git" >> .gitignore
+# # echo ".cfg" >> .gitignore
+# # conf config --local status.showUntrackedFiles no
+# # echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
+# alias c="conf"
+# alias cs="conf status"
+# alias coc="conf commit -m"

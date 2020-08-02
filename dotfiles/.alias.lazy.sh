@@ -56,8 +56,38 @@ alias g='gradle'
 alias gt='gradle test'
 
 
-
 # pretty print path!
 alias ppath="tr ':' '\n' <<< '$PATH'"
+
+
+# https://www.atlassian.com/git/tutorials/dotfiles
+# reco with the .cfg dir feels like a slightly convinent but painful way because of 
+# the non-default convention from tools that expect to understand the .git dir.
+alias conf='/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME'
+# echo ".git" >> .gitignore
+# echo ".cfg" >> .gitignore
+# conf config --local status.showUntrackedFiles no
+# echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
+alias c="conf"
+alias cs="conf status"
+alias coc="conf commit -m"
+
+
+# Bash vs Zsh logic: cdd vs macos rule
+printf "\nSourcing for:"
+if [[ echo $0 == "bash" ]]; then
+  echo "Bash"
+  alias s='source ~/.bashrc'
+else
+  echo "Zsh"
+  alias s='source ~/.zshrc'
+fi
+
+
+# to be at the end!
+# To get XMing working we need to add a DISPLAY variable.
+export DISPLAY=:0
+# Run zsh at start up
+# [ -t 1 ] && exec zsh
 
 echo "done!"
