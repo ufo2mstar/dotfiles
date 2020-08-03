@@ -39,6 +39,9 @@ case $SHELL in
     # assume Bash
     echo "Bash"
     alias s='source ~/.bashrc'
+    #bash specific
+    alias ver='lsb_release -a'
+#end
     ;;
 *)
     # assume something else
