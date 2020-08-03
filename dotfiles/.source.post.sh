@@ -3,7 +3,7 @@ script="$SHELL"
 # echo $script
 # [ -z "$BASH_SOURCE" ] && script="$0"
 # Bash vs Zsh logic: cdd vs macos rule
-printf "\nSourcing for: "
+printf "Loaded configs for: "
 
 # if [ $script =~ "bash" ]; then
 #   echo "Bash"
@@ -37,7 +37,7 @@ case $SHELL in
     ;;
 */bash)
     # assume Bash
-    echo "Bash"
+    echo "Bash-MacOS"
     alias s='source ~/.bashrc'
     #bash specific
     alias ver='lsb_release -a'
