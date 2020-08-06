@@ -1,4 +1,5 @@
 # = depricated
+# hacky owlery preview link generator for NA SDR
 op() {
     echo "*** Get owlery preview links ***"
     echo
@@ -13,6 +14,13 @@ op() {
     echo
 }
 
+# = MARKETPLACE_OBFS
+# Translate int MarketplaceId to Obfuscated MarketplaceId String
+# 
+# usage and output:
+# $ init_marketplace_obfs
+# $ echo MARKETPLACE_OBFS['1']
+# ATVPDKIKX0DER
 init_marketplace_obfs() {
     MARKETPLACE_OBFS=()
     MARKETPLACE_OBFS['1']="ATVPDKIKX0DER"          # US_Prod
@@ -87,11 +95,11 @@ init_marketplace_obfs() {
 }
 init_marketplace_obfs
 
-# better script attempt
-# RTE search link to Owlery preview link generator
+# = Better RTE search link to Owlery preview link generator
 # non SDR specific, non NA-US specific RTE search to Owlery Preview linkifier
-# example: http://cs-customer-notification-eu.amazon.com:17810/getNotificationContentPost?RTN.MessageID=urn%3Artn%3Amsg%3A20200805111032815945bf547944068df811715820p0eu&shipTrackEventCode=EVENT_307&orderId=304-1943067-4463569&carrierType=3P&isEeylops=true&eventType=ScheduledDeliveryReminder-Email&orderingShipmentIds=23513063050302&fulfillmentShipmentId=36407097860202&marketplaceId=4&countOfShipmentsInTheLargestOrder=1&customerId=A3TNRF0J47TXSQ&recipient=bernhard.rubenbauer%40web.de&numberOfShipmentItemEntitiesInTheLargestOrder=1&orderIds=304-1943067-4463569&RTN.RetryCount=1&trackingId=002200218206210000B00011
+# example input: http://cs-customer-notification-eu.amazon.com:17810/getNotificationContentPost?RTN.MessageID=urn%3Artn%3Amsg%3A20200805111032815945bf547944068df811715820p0eu&shipTrackEventCode=EVENT_307&orderId=304-1943067-4463569&carrierType=3P&isEeylops=true&eventType=ScheduledDeliveryReminder-Email&orderingShipmentIds=23513063050302&fulfillmentShipmentId=36407097860202&marketplaceId=4&countOfShipmentsInTheLargestOrder=1&customerId=A3TNRF0J47TXSQ&recipient=bernhard.rubenbauer%40web.de&numberOfShipmentItemEntitiesInTheLargestOrder=1&orderIds=304-1943067-4463569&RTN.RetryCount=1&trackingId=002200218206210000B00011
 # 
+# usage and output:
 # $ r2o
 # *** Get owlery preview links ***
 # Whats your cs link? 
@@ -104,9 +112,6 @@ r2o() {
 
 " link
     render_params=$(echo $link | sed -e "s/htt.*cs-customer-notification-.*.amazon.*urn.*rtn.*msg.*[a-z0-9]*&shipTrackEventCode/shipTrackEventCode/g" | sed -e "s/&/\",\"/g" | sed -e "s/=/\":\"/g")
-    # consts
-    # animals_moo=cow; sound=moo; i="animals_$sound"; echo "${!i}"
-
     # clean up vars
     # link="http://cs-customer-notification-eu.amazon.com:17810/getNotificationContentPost?RTN.MessageID=urn%3Artn%3Amsg%3A20200805111032815945bf547944068df811715820p0eu&shipTrackEventCode=EVENT_307&orderId=304-1943067-4463569&carrierType=3P&isEeylops=true&eventType=ScheduledDeliveryReminder-Email&orderingShipmentIds=23513063050302&fulfillmentShipmentId=36407097860202&marketplaceId=4&countOfShipmentsInTheLargestOrder=1&customerId=A3TNRF0J47TXSQ&recipient=bernhard.rubenbauer%40web.de&numberOfShipmentItemEntitiesInTheLargestOrder=1&orderIds=304-1943067-4463569&RTN.RetryCount=1&trackingId=002200218206210000B00011"
     regex_region='http:..cs-customer-notification-([a-z]+).amazon.*urn.*rtn.*msg.*[a-z0-9]*&shipTrackEventCode'
@@ -120,7 +125,6 @@ r2o() {
     marketplace=${BASH_REMATCH[1]}
     obfs_marketplace=${MARKETPLACE_OBFS[marketplace]}
     # echo $region $event_type $marketplace
-
     printf "\nOwlery Preview Link:\n\n"
     owlery_preview_link="https://owlery-$region-prod.corp.amazon.com/preview/$event_type/$obfs_marketplace"
     # result="https://owlery-eu-prod.corp.amazon.com/preview/ScheduledDeliveryReminder-Email/A1PA6795UKMFR9?renderParamsJson="
