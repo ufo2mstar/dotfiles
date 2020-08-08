@@ -62,6 +62,12 @@ alias gt='gradle test'
 alias ppath="tr ':' '\n' <<< '$PATH'"
 
 
+# https://superuser.com/questions/600090/avoiding-accidental-rm-disasters
+alias rm="rm -i"
+alias mv="mv -i"
+alias cp="cp -i"
+
+
 # https://www.atlassian.com/git/tutorials/dotfiles
 # reco with the .cfg dir feels like a slightly convinent but painful way because of 
 # the non-default convention from tools that expect to understand the .git dir.

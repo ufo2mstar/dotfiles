@@ -171,4 +171,4 @@ PROMPT_COMMAND="history -a; history -c; history -n; history -r"
 # PROMPT_COMMAND="history -acnrw"
 
 tac "$HISTFILE" | awk '!x[$0]++' >/tmp/tmpfile && tac /tmp/tmpfile >"$HISTFILE"
-rm /tmp/tmpfile
+rm -f /tmp/tmpfile
