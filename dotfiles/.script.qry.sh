@@ -1,4 +1,5 @@
 # https://sookocheff.com/post/bash/parsing-bash-script-arguments-with-shopts/
+# https://learnxinyminutes.com/docs/bash/
 
 tim() {
 
@@ -22,7 +23,7 @@ tim() {
     esac
   done
   # shift $((OPTIND - 1))
-
+  # https://stackoverflow.com/questions/3975004/how-to-make-a-multi-character-parameter-in-unix-using-getopt
   # subcommand=$1
   # shift # Remove 'pip' from the argument list
   # case "$subcommand" in
@@ -178,9 +179,10 @@ qry() {
   # set -o pipefail  # Unveils hidden failures
   # set -o nounset   # Exposes unset variables
 
-  qry_usage() {
+  usage_help() {
     cat <<EOF
-foo [-r na|eu] [-p|-o] [-a|-w|...] -t <log_time_glob> -f <filename_suffix> -- <eval_str>
+
+Usage: ${FUNCNAME[1]} [-r na|eu] [-p|-o] [-a|-w|...] -t <log_time_glob> -f <filename_suffix> -- <eval_str>
   time  
     -t <time> log time window that takes a log_time_glob, eg: "YYYY/MM/DD/hh" ; "2020/06/15/01" , "2020/06/15/{01,02,03}", "2020/06/15/**" 
     -f <fs>   filename suffix, eg: 
@@ -196,7 +198,9 @@ foo [-r na|eu] [-p|-o] [-a|-w|...] -t <log_time_glob> -f <filename_suffix> -- <e
       -w      weblab-triggers.log
      ...
   Opt
-    eval_str  Command to be run on the $(zgrep)ed log lines, eg: " grep -C 10 'stuff' | grep -oP 'more' "
+    eval_str  Command to be run on the zgrep-ed log lines, eg: " grep -C 10 'stuff' | grep -oP 'more' "
+
+
 EOF
   }
 
@@ -207,8 +211,14 @@ EOF
   # && lastfile="$(date +%Y-%m-%d/%H-%M-%S)-P-EU_08-04-06_ES-307.txt" \
   # && time ssh narensub@eeylops-timber-fs-dub-1b-630996ff.eu-west-1.amazon.com "zgrep '' /timber/eeylops-dev+prod@amazon.com/EeylopsService/EU/Prod/application.log/$datetime/*.gz | $search " | tee -a $lastfile
 
-  local OPTIND opt
+  local vars=$@
+  if [[ -z "${vars}" ]]; then
+    echo "No Params passed"
+    usage_help
+    return 0
+  fi
 
+  local OPTIND opt
   local region log_env log_name
   local datetime filename
   local eval_str
@@ -250,15 +260,18 @@ EOF
       ;;
     v)
       # todo: verbose?
-      echo "v0.1"
+      echo "v0.2" #pretty print run time duratin and eval script
+      # echo "v0.1" #base script
       ;;
-    h)
-      qry_usage
-      ;;
+    # h)
+    #   usage_help
+    #   return 0
+    #   ;;
     # ?) todo: apply
     # :) todo: find
     *)
-      qry_usage
+      usage_help
+      return 0
       ;;
     esac
   done
@@ -323,11 +336,14 @@ EOF
   # echo $datetime | sed 's/[^0-9]+/-/g'
 
   # filename="ES-307"
-  file_datetime=$(echo ${datetime} | sed -E 's/[^0-9]+/-/g') && file_datetime=${file_datetime%-}
-  file_region=$(echo ${region} | tr '[a-z]' '[A-Z]')
+  file_datetime=$(echo "${datetime}" | sed -E 's/[^0-9]+/-/g') && file_datetime=${file_datetime%-}
+  file_region=$(echo "${region}" | tr '[a-z]' '[A-Z]')
+  # file_suffix="${log_env:0:1}-${file_region}_${file_datetime}_\${filename}"
   file_suffix="${log_env::1}-${file_region}_${file_datetime}_\${filename}"
   _file_suffix="${log_env::1}-${file_region}_${file_datetime}_${filename}"
-  file_prefix="${LOG_DIR}/$(date +%Y-%m-%d/%H-%M-%S)"
+  # file_prefix="${LOG_DIR}/$(date +%Y-%m-%d/%H-%M-%S)"
+  # file_prefix="${LOG_DIR}/$(date +%Y/%m/%d/%H-%M-%S)"
+  file_prefix="${LOG_DIR}/$(date +%m-%d-%Y/%H-%M-%S)"
   lastfile=${file_prefix}_${file_suffix}.txt
   _lastfile=${file_prefix}_${_file_suffix}.txt
 
@@ -354,8 +370,8 @@ EOF
   # printf '%s' $query
 
   # $(filename="'$filename'" && mkdir -p "$(dirname "${lastfile}")" && touch "${lastfile}")
-  # $(mkdir -p "$(dirname "${_lastfile}")" && touch "${_lastfile}")
-  printf "\n%s\n\n" "Search Query:"
+  $(mkdir -p "$(dirname "${_lastfile}")" && touch "${_lastfile}")
+  printf "\n%s\n$(draw_sep 13)\n\n%s\n\n$(draw_sep 120)\n\n" "Search Query:" "${FUNCNAME[0]} $vars" | tee -a $_lastfile
 
   # echo 'datetime="'$datetime'" \'
   # echo '&& search="'$eval_str'" \'
@@ -368,7 +384,7 @@ EOF
   # echo 'tee -a $lastfile'
   # echo
 
-#  '&& search="'${eval_str}'" \'
+  #  '&& search="'${eval_str}'" \'
   aa=(
     'datetime="'$datetime'" \'
     '&& search="'"${eval_str}"'" \'
@@ -390,14 +406,52 @@ EOF
   #   # prints spaces in new lines too :/
   # done
 
-  ( IFS=$'\n'; echo "${aa[*]}" | tee -a $_lastfile )
+  # https://stackoverflow.com/questions/15691942/print-array-elements-on-separate-lines-in-bash
+  # for i in ${aa[*]}; do
+  #   echo "$i\t: ${aa[i]}"
+  #   # prints spaces in new lines too :/
+  # done
 
+  local time_start time_stop
+  pretty_time() {
+    ((h = ${1} / 3600))
+    ((m = (${1} % 3600) / 60))
+    ((s = ${1} % 60))
+    printf "Duration - %02d h : %02d m : %02d s\n" $h $m $s
+  }
+  start_timer() {
+    time_start=$(date +%s)
+  }
+  stop_timer() {
+    time_stop=$(date +%s)
+    pretty_time $((time_stop - time_start))
+  }
+  draw_sep() {
+    # local sep=$(printf "%$1s" | tr " " "${$2:-"-"}")
+    echo $(printf "%${1:-80}s" | tr " " "${2:-"-"}")
+    #$(printf "%$1s" | tr " " "${$2:-"-"}")
+  }
+
+  (
+    IFS=$'\n'
+    echo "${aa[*]}" | tee -a $_lastfile
+  )
+  printf "\n\n$(date)\n$(draw_sep 120 =)\n\n" | tee -a $_lastfile
+  start_timer
   # # https://stackoverflow.com/questions/15691942/print-array-elements-on-separate-lines-in-bash
   # # printf '%s\n' "${aa[@]}" | tee -a $lastfile
-  # local query+=$(printf '%s\n' "${aa[@]}")
-  # # tee -a $lastfile query
+  local query=$(printf "%s\n" "${aa[@]%\\}") # remove \ and run query
   # echo $query
+  eval $query
+  # local query="${aa[@]}"
+  # query=$(echo $query | tr " \\ " " ") # :/
+  # # tee -a $lastfile query
+  # echo ${query%\\}
+  # eval $query
   # # echo query
+  # sleep 1
+  # printf "\n\n$(date)\n$(draw_sep 120 =)\n$(stop_timer)\n" | tee -a $_lastfile
+  printf "\n$(draw_sep 120 =)\n$(date)\n$(stop_timer)\n\n" | tee -a $_lastfile
 }
 
 test() {
@@ -437,3 +491,5 @@ savelog() {
   #`$QURY`
   #$($QURY)
 }
+
+# datetime="2020/08/08/**" \ && search="grep -P 'this'" \ && filename="test" \ && lastfile="/Users/narensub/timber/2020-08-08/13-12-06_O-EU_2020-08-08_${filename}.txt" \ && mkdir -p "$(dirname "$lastfile")" && touch "$lastfile" \ && time ssh narensub@eeylops-timber-fs-dub-1b-630996ff.eu-west-1.amazon.com \ "zgrep '' /timber/eeylops-dev+prod@amazon.com/EeylopsService/EU/OneBox/Prod/application.log/$datetime/*.gz | \ $search " | \ tee -a $lastfile
