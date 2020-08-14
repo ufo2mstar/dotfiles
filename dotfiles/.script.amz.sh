@@ -43,3 +43,5 @@ check_cert() {
     fi
 }
 check_cert #run automatically
+
+# todo: explore curl https://midway-auth.amazon.com/login to see if connected to network

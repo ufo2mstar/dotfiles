@@ -129,7 +129,10 @@ fi
 # http://osxdaily.com/2013/02/05/improve-terminal-appearance-mac-os-x/
 # export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
-LSCOLORS=ExFxBxDxCxegedabagacad
+export LSCOLORS=ExFxBxDxCxegedabagacad
+
+# http://www.marinamele.com/2014/05/customize-colors-of-your-terminal-in-mac-os-x.html
+export LSCOLORS=GxFxCxDxBxegedabagaced
 
 
 # https://medium.com/@iraklis/fixing-dark-blue-colors-on-windows-10-ubuntu-bash-c6b009f8b97c
