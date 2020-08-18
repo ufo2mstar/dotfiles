@@ -34,14 +34,16 @@ check_cert() {
         CERT=$(ssh-keygen -Lf $KEY_FILE | awk 'NR==7{print $5}')
         DATE_NOW=$(date +"%Y-%m-%dT%T")
         if [[ "$DATE_NOW" > "$CERT" ]]; then
-            echo "zshrc: your midway has expired..."
+            echo "$0: your midway has expired..."
             secinit
         fi
     else
-        echo "zshrc: your midway has expired..."
+        echo "$0: your midway has expired..."
         secinit
     fi
 }
 check_cert #run automatically
 
-# todo: explore curl https://midway-auth.amazon.com/login to see if connected to network
+## todo: explore curl https://midway-auth.amazon.com/login to see if connected to network
+# resp=$(curl https://midway-auth.amazon.com/login);
+# $ if [ "Midway Authentication Portal" == "${resp}" ]; then echo "connected" fi;

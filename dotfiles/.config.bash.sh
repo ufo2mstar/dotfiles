@@ -167,11 +167,13 @@ shopt -s histappend                     # append to history, don't overwrite it
 # # After each command, append to the history file and reread it
 # export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
-shopt -s histappend
+# shopt -s histappend
 # PROMPT_COMMAND="history -a; history -c; history -r"
 # PROMPT_COMMAND="history -a; history -c; history -n; history -r; history -w" # suspecious! -w is the cause of too much delay
 PROMPT_COMMAND="history -a; history -c; history -n; history -r"
 # PROMPT_COMMAND="history -acnrw"
 
+# https://www.theunixschool.com/2012/06/5-ways-to-reverse-order-of-file-content.html#:~:text=1.,the%20file%20in%20reverse%20order.
+# todo: replace `tac` dependency?
 tac "$HISTFILE" | awk '!x[$0]++' >/tmp/tmpfile && tac /tmp/tmpfile >"$HISTFILE"
 rm -f /tmp/tmpfile

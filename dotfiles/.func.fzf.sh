@@ -4,6 +4,14 @@
 # # /usr/local/opt/fzf/install
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
+# Doc: https://github.com/junegunn/fzf 
+# FZF_DEFAULT_COMMAND
+# Default command to use when input is tty
+export FZF_DEFAULT_COMMAND='fd --type f'
+# FZF_DEFAULT_OPTS
+# Default options
+export FZF_DEFAULT_OPTS="--layout=reverse --inline-info"
+
 # fd - cd to selected directory
 fd() {
     local dir

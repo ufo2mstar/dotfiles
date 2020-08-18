@@ -79,6 +79,7 @@ alias conf='/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME'
 alias c="conf"
 alias cs="conf status"
 alias ca="conf add"
+alias cad="ca ~/dotfiles/."
 alias coc="conf commit -m"
 
 # to be at the end!
