@@ -76,7 +76,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 # nvm use v12
 
-# = SSH
+# = SSH fuse
 # sshfs: MacOSXFuse
 alias ss='sshfs narensub@narensub2-clouddesk.aka.corp.amazon.com:/local/home/narensub ~/cdd'
 # ss # if needed to do at terminal startup

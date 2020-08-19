@@ -3,4 +3,4 @@
 node_modules
 
 # don't ignore all, at the peril of not being able to add more
-# *
+*

@@ -173,6 +173,7 @@ shopt -s histappend                     # append to history, don't overwrite it
 PROMPT_COMMAND="history -a; history -c; history -n; history -r"
 # PROMPT_COMMAND="history -acnrw"
 
+# WARNING: takes some time to run through, but gives a better history
 # https://www.theunixschool.com/2012/06/5-ways-to-reverse-order-of-file-content.html#:~:text=1.,the%20file%20in%20reverse%20order.
 # todo: replace `tac` dependency?
 tac "$HISTFILE" | awk '!x[$0]++' >/tmp/tmpfile && tac /tmp/tmpfile >"$HISTFILE"
