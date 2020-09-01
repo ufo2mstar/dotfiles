@@ -69,6 +69,19 @@ alias cp="cp -i"
 
 
 # https://www.atlassian.com/git/tutorials/dotfiles
+# 
+# # bash
+# git init --bare $HOME/.cfg
+# alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+# config config --local status.showUntrackedFiles no
+# echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
+# 
+# # zsh
+# git init --bare $HOME/.git
+# alias conf='/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME'
+# conf config --local status.showUntrackedFiles no
+# echo "alias conf='/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME'" >> $HOME/.zshrc
+
 # reco with the .cfg dir feels like a slightly convinent but painful way because of 
 # the non-default convention from tools that expect to understand the .git dir.
 alias conf='/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME'
@@ -79,8 +92,8 @@ alias conf='/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME'
 alias c="conf"
 alias cs="conf status"
 alias ca="conf add"
-alias cad="ca ~/dotfiles/."
-alias coc="conf commit -m"
+alias cad="conf add ~/dotfiles/."
+alias ccm="conf commit -m"
 
 # to be at the end!
 # To get XMing working we need to add a DISPLAY variable.
@@ -89,3 +102,24 @@ export DISPLAY=:0
 # [ -t 1 ] && exec zsh
 
 # echo "done!"
+
+# git remote add origin https://github.com/ufo2mstar/dotfiles.git
+# git remote add origin https://github.com/ufo2mstar/dotfiles.git
+# git remote add gitfarm ssh://git.amazon.com/pkg/Narensub-dotfiles
+# git push --set-upstream origin mac
+# git push --set-upstream gitfarm mac
+
+
+
+# Wed Aug 19 17:25:04:[mac !?]~
+# $ git remote -v
+# origin	https://github.com/ufo2mstar/dotfiles.git (fetch)
+# origin	https://github.com/ufo2mstar/dotfiles.git (push)
+# Wed Aug 19 21:30:12:[mac !?]~
+# $ git remote add gitfarm ssh://git.amazon.com/pkg/Narensub-dotfiles
+# Wed Aug 19 21:31:33:[mac !?]~
+# $ git remote -v
+# gitfarm	ssh://git.amazon.com/pkg/Narensub-dotfiles (fetch)
+# gitfarm	ssh://git.amazon.com/pkg/Narensub-dotfiles (push)
+# origin	https://github.com/ufo2mstar/dotfiles.git (fetch)
+# origin	https://github.com/ufo2mstar/dotfiles.git (push)

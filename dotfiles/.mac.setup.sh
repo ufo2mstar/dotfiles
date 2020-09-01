@@ -88,3 +88,5 @@ alias dv="ssh dev -vvv"
 # = Path Changes
 # MAC setup
 export PATH=/usr/local/bin:$PATH
+export PATH=$HOME/.toolbox/bin:$PATH
+export PATH=$HOME/bin:$PATH

@@ -44,14 +44,22 @@
 # echo "Post-Hook"
 # source $HOME/dotfiles/.source.post.sh
 
+# array1=(prova1 prova2)
+# array1+=(slack64)
+# a=slack64
+# if (printf '%s\n' "${array1[@]}" | grep -xq $a); then
+#     echo "it's in"
+# fi
+
 declare -a order=(
     # ".source.pre"
-    ".config.*"
     ".alias.*"
     ".inputrc*"
     ".func.*"
     ".script.*"
+    # ".script.*" # duplicate try
     ".mac.*"
+    ".config.*"
     # ".source.post"
 )
 
@@ -59,18 +67,23 @@ declare -a done=()
 # # Pre-source
 echo "Pre-Hook"
 source $HOME/dotfiles/.source.pre.sh
-
+declare skips="source|cdd|zsh"
 for i in "${order[@]}"; do
     # echo "$i"
     for f in $HOME/dotfiles/$i.sh; do
-        done+="$f"
-        [[ $f =~ source|cdd|zsh ]] && echo "skipping $f" && continue
-        # if [[ ! -z $(printf '%s\n' "${order[@]}" | grep -w $find) ]]; then
-        #     echo "skipping $f.. already sourced";
-        # fi
+        # echo ${done[@]}
+        [[ $f =~ skips ]] && echo "skipping $f" && continue
+        # # if [[ ! -z $(printf "%s\n" "${done[@]}" | ggrep -w "$f") ]]; then
+        if (printf '%s\n' "${done[@]}" | grep -xq $f); then
+            # echo "skipping $f.. already sourced"
+            printf "already sourced '$f' - skipping\n"
+            continue
+        fi
         cmd="source '$f'"
-        echo $cmd
+        printf "\t$cmd\n"
         eval $cmd
+        # store pre-loaded files
+        done+=("$f")
     done
 done
 

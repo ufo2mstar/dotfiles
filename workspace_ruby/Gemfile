@@ -1,0 +1,60 @@
+source 'https://rubygems.org' do
+
+  # base ruby deps
+  # gem 'bundler'
+  gem 'rake'
+  gem 'require_all'
+  gem 'rspec'
+  gem 'logging'
+
+  # # xls deps
+  # gem 'writeexcel'
+  # gem 'write_xlsx' # not sure i want this, after the Time convert debacle
+  # gem 'combos'
+  # gem 'axlsx'
+  # gem 'rubyzip', "~>1.0.0"
+  #
+  # # db deps
+  # gem 'activesupport'
+  # gem 'activemodel'
+  # gem 'activerecord'
+  # #gem 'ruby-oci8'
+  # gem 'dbi'
+  #
+  # gem 'ruby-graphviz'
+  # gem 'dimensions'
+  # gem 'highline'
+  #
+  # gem 'rgl'
+  #
+  # # for coverage
+  # gem 'simplecov'
+  # # gem 'spreadsheet'
+  # gem 'rubyXL'
+  #
+  # # # inspect
+  # # gem 'flog'
+  # # gem 'flay'
+  # # gem 'heckle'
+  # #
+  # # gem 'reek'
+  #
+  # gem 'yard'
+  # gem 'html-table'
+  #
+  # gem 'gherkin'
+  # gem 'gherkin-ruby'
+  #
+  # # cli
+  # gem 'thor'
+  #
+  # # graphql
+  # gem 'graphql'
+  # #gem 'rails-graphiql'
+  #
+
+  # order modeling
+  gem 'rspec-snapshot'
+  # gem 'awesome_print'
+  gem 'amazing_print'
+end

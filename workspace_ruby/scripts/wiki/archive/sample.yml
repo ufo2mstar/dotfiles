@@ -1,0 +1,10 @@
+---
+Eeylops:
+  Sent:
+    Email: default
+    SMS: default
+    :PUSH: default
+  carrierType:
+    AMXL: default
+    3P: default
+    OTHER: default

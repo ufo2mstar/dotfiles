@@ -8,6 +8,8 @@ case $- in
   *) return;;
 esac
 
+source $HOME/dotfiles/.source.loadorder.sh
+
 
 # # https://builderhub.corp.amazon.com/docs/set-up-laptop-macos.html#setup-macos-ssh
 # # # MAC setup
@@ -764,5 +766,3 @@ esac
 # # Post-source
 # echo "Post-Hook"
 # source $HOME/dotfiles/.source.post.sh
-
-source $HOME/dotfiles/.source.loadorder.sh

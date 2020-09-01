@@ -1,0 +1,54 @@
+# #== Here is where it all starts!
+#
+# require_relative 'db_pull_run'
+# dbp_runner = DbPullRun.new
+#
+# # def quick_check(init_config_hsh)
+# #   if init_config_hsh.empty?
+# #     warn("No Configs found.. please run rake tasks")
+# #     fail
+# #   end
+# #   if io_config_file.empty?
+# #     warn("No Configs found.. please run rake tasks")
+# #     fail
+# #   end
+# # end
+#
+# namespace :init do
+#
+#   task :io do
+#     # todo:
+#     dbp_runner.io
+#   end
+#
+#   task :db do
+#     dbp_runner.db
+#   end
+#
+# end
+#
+# task :default => ["init:db"]
+#
+# namespace :pull do
+#
+#   task :io do
+#     dbp_runner.yank_from_inputfile
+#   end
+#
+#   task :all do
+#     dbp_runner.analyze_all
+#   end
+#
+#   task :report do
+#     dbp_runner.analyze_test_reports
+#   end
+# end
+#
+#
+# # require 'yard'
+# #
+# # YARD::Rake::YardocTask.new do |t|
+# #   t.files = ['lib/**/*.feature', 'features/**/*.rb']
+# #   # t.files   = ['**/*.feature']
+# #   # t.options = ['--any', '--extra', '--opts'] # optional
+# # end
