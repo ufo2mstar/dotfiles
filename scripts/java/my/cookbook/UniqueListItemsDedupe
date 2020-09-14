@@ -1,0 +1,38 @@
+    private <T> List<String> getDuplicatesList(List<T> inputList) {
+        Set<String> tempSet = new HashSet();
+        List<String> dupeList = new ArrayList();
+        for (T item : inputList) {
+            String str = item.toString();
+            if (!tempSet.add(str)) {
+                dupeList.add(str);
+            }
+        }
+        return dupeList;
+    }
+
+    private <T> List<String> getDuplicatesList(List<T> inputList) {
+        Set<String> tempSet = new HashSet();
+        // List<String> dupeList = inputList.stream().map(item -> item.toString()).filter(str -> tempSet.add(str)).collect(Collectors.toList());
+        // List<String> dupeList = inputList.stream().map(Object::toString).filter(tempSet::add).collect(Collectors.toList());
+        List<String> dupeList = inputList.stream().map(Object::toString).filter(str -> !tempSet.add(str)).collect(Collectors.toList());
+        // List<String> dupeList = new ArrayList();
+        // for (T item : inputList) {
+        //     String str = item.toString();
+        //     if (!tempSet.add(str)) {
+        //         dupeList.add(str);
+        //     }
+        // }
+        return dupeList;
+    }
+    
+ //todo: interesting gotcha
+            // resolveSmsOverridePhoneNumberSubcontractCallParams(optInParams.isPresent() ? optInParams.get() : contextsAccessor.getMainContext()));
+            // resolveSmsOverridePhoneNumberSubcontractCallParams(optInParams.get()));
+            //         resolveSmsOverridePhoneNumberSubcontractCallParams(contextsAccessor.getMainContext())
+            // );
+
+                    // todo: not very intuitive/clear to read
+                    //         optInParams.map(this::resolveSmsOverridePhoneNumberSubcontractCallParams)
+                    //                    .orElseGet(() -> resolveSmsOverridePhoneNumberSubcontractCallParams(
+                    //                                    contextsAccessor.getMainContext()))
+

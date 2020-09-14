@@ -175,3 +175,4 @@ EOF
   eval $query
   printf "\n$(draw_sep 120 =)\n$(echo "Written to: $_lastfile")\n$(date)\n$(stop_timer)\n\n" | tee -a $_lastfile
 }
+
