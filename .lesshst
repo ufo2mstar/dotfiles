@@ -1,0 +1,12 @@
+.less-history-file:
+.search
+"-p
+"-o
+"-i
+"-P
+"rev
+"cat
+"read
+"HIST
+"HISTCONTROL
+"examp

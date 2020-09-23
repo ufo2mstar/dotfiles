@@ -1,0 +1,202 @@
+ls
+ls
+cd..
+cd ..
+ls
+cd ..
+ls
+cd bin/
+ls
+ls
+ls
+ssh
+brew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew help
+ls
+exit
+wget
+brew install wget
+ls
+lt
+brew cask install amethyst
+cd /
+finder .
+open .
+which iterm2
+where iterm2
+where iterm
+which iterm
+source
+exit
+source ~/.bashrc
+ls
+ git -v
+git
+git --version
+vim
+find .bashrc
+find .bashrc /
+java
+;10C
+ls
+exit
+brew tap homebrew/cask
+ls
+rew cask install jumpcut
+brew cask install jumpcut
+ls
+source ~/.bashrc
+ls
+ls | grep D
+ls | grep "Do"
+which grep
+where grep
+which where
+which which
+ls
+mkdir repos
+cd repos/
+git clone https://github.com/dracula/iterm.git
+finder /Users/narensub/Library/Application Support/Google/Chrome/Default
+open /Users/narensub/Library/Application Support/Google/Chrome/Default
+cd /Users/narensub/Library/Application Support/Google/Chrome/Default
+cd "/Users/narensub/Library/Application Support/Google/Chrome/Default"
+open .
+ls
+mv ~/Downloads/
+echo $HOME
+pwd
+touch .bashrc
+ls
+la
+source .bashrc
+la
+lt
+ls
+la
+cd /
+find .bash_profile
+find .bash_profile *
+find .bash_profile /
+find .bash_profile
+find .bash_profile -r
+find .bash_profile -R
+find help
+peco
+brew install peco
+kinit
+kinit -f
+mwinit -o
+ls
+ls 
+ls | peco
+python
+ls
+brew tap amazon/amazon "ssh://git.amazon.com/pkg/HomebrewAmazon"
+brew install ninja-dev-sync
+brew tap amazon/amazon "ssh://git.amazon.com/pkg/HomebrewAmazon"
+brew install ninja-dev-sync
+cr
+toolbox
+grep .toolbox ~/.bash_profile
+which curl
+curl --negotiate -fLSsu: 'https://drive.corp.amazon.com/view/BuilderToolbox/toolbox-install.sh' -o /tmp/toolbox-install.sh && /bin/bash /tmp/toolbox-install.sh
+ti
+toolbox install k
+git -v
+git --v
+git -V
+git --version
+brew install git
+git --version
+cd ~
+which git
+git --version
+/usr/local/Cellar/git
+/usr/local/etc/bash_completion.d
+brew update git
+brew upgrade git
+git --version
+ls
+la
+toolbox install brazilcli
+curl --negotiate -fLSsu: 'https://drive.corp.amazon.com/view/BuilderToolbox/toolbox-install.sh' -o /tmp/toolbox-install.sh && /bin/bash /tmp/toolbox-install.sh
+toolbox install brazilcli
+echo $PATH
+la
+ls -a
+vim .bash_profile
+toolbox
+toolbox install brazilcli
+toolbox install crux
+toolbox install cr
+ls
+brew install rbenv
+rbenv init
+alias s
+cd /Users/narensub/Library/Application Support/Google/Chrome/Default
+cd "/Users/narensub/Library/Application Support/Google/Chrome/Default"
+open .
+cd ~
+brew i fasd
+brew install fasd
+cd "/Users/narensub/Library/Application Support/Google/Chrome/Default"
+cd ~
+alias zz
+fasd
+z
+fasd_cd
+alias
+a
+ls
+cd repos/
+cd..
+ls
+ls
+cd "/Users/narensub/Library/Application Support/Google/Chrome/Default"
+popd
+which fasd
+la
+lt
+lt -h
+ls
+lt
+la
+which vim
+vim
+ls
+lt
+ls
+ssh-keygen
+nl|sort -k 2|uniq -f 1|sort -n|cut -f 2
+nl
+export HISTCONTROL=ignoreboth:erasedups
+a
+f
+which f
+alias f
+history -a
+history -w
+history -w
+brew tap amazon/homebrew-amazon ssh://git.amazon.com/pkg/HomebrewAmazon
+brew analytics off
+ruby -v
+brew install ruby
+la
+which tac
+brew install tac
+brew install coreutils
+tac .bashrc 
+brazil help
+printenv PATH | grep toolbox
+/usr/libexec/java_home -V
+java -version
+echo $JAVA_HOME
+brew install rbenv libyaml libffi
+zz
+cd.
+p
+cd -
+s
+history
