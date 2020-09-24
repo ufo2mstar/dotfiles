@@ -118,6 +118,8 @@ end
 
 def print_sections(node, level = 1, template_map = nil)
   # obj == sections_or_graph_or_template_subs
+  puts
+  puts
   node.each do |title, obj|
     type = obj.class.to_s
     puts make_wiki_title title, level
@@ -142,8 +144,8 @@ def print_comment(yml_str, title)
   puts "\n\n"
 end
 
-# def prepare_yml filename
-#   yml_str = File.read("./data/#{filename}.yml")
-#   print_comment yml_str, filename
-#   YAML.load(yml_str)
-# end
+def prepare_yml filename
+  yml_str = File.read("./data/#{filename}.yml")
+  print_comment yml_str, filename
+  YAML.load(yml_str)
+end

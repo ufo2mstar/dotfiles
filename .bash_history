@@ -579,3 +579,28 @@ s
 ls
 cs
 conf config --list
+git add -u 
+cs
+ccm "Add mac home dotfiles"
+ls
+cd scripts/wiki/
+rspec wiki_grapher_spec.rb preset_slapshot_indiv
+rspec wiki_grapher_spec.rb -e preset_slapshot_indiv
+d
+bbf
+bb
+ls
+cd src/EeylopsControlPlane/
+bbr
+bb
+cr -i EeylopsContexts -i EeylopsControlPlane -i EeylopsCore -i EeylopsEvaluator -i EeylopsSerialization
+cd..
+cd textedit/
+ruby json_converters.rb [exec] ControlPlane event:AsyncEventTrigger(eventTriggerId=urn:eeylops:etid:e1190014-a64e-486e-a089-59b5ecc67ad6, initialTriggerTime=2020-09-23T22:39:15.774Z, initialRenderFailureTime=Optional.empty, triggeringRetry=0, renderingRetry=0, stage=TEST, region=NA, blueprintName=OwenBlueprint, sourceEventJson={"marketplaceId":"1","jamesQueryResults":{"isSmileOrder":false,"isOrderB2B":false,"isUFGOrder":false,"isOrderApprovalRequired":false,"containsPrimeSurpriseBoxBuildingItems":false,"orderHasMembershipItems":false,"isXAAOrder":false,"isOrderTeen":false,"isGamma":false,"isPpiOrder":false,"isZapposMafia":false,"hasPrimeNowInfo":false,"isAFN":true,"isOrderItemAssociation":false,"isHeavyBulkyScheduledDelivery":false,"isPharmacyOrder":false,"2":true,"isOrderSVA":false,"hasBudget":false,"isMomentsOrder":false,"isSarekOrder":false,"isHFCOrder":false,"isOwnerNile":false,"isFreshOrder":false,"isOrderCorporateGC":false,"isUpFrontChargeOrder":false,"isTrialOrder":false},"orderId":"902-6353659-5775039","purchaseId":"903-3942233-0275839","daysUntilCancel":"2","orderingRealm":"USAmazon","eventType":"PaymentHardDeclined"}, predicateContextJsonOverride=Optional.empty, delayedEvalPredicateContextJsonOverride=Optional.empty)
+ruby json_converters.rb 
+ruby json_converters.rb "[exec] ControlPlane event:AsyncEventTrigger(eventTriggerId=urn:eeylops:etid:e1190014-a64e-486e-a089-59b5ecc67ad6, initialTriggerTime=2020-09-23T22:39:15.774Z, initialRenderFailureTime=Optional.empty, triggeringRetry=0, renderingRetry=0, stage=TEST, region=NA, blueprintName=OwenBlueprint, sourceEventJson={"marketplaceId":"1","jamesQueryResults":{"isSmileOrder":false,"isOrderB2B":false,"isUFGOrder":false,"isOrderApprovalRequired":false,"containsPrimeSurpriseBoxBuildingItems":false,"orderHasMembershipItems":false,"isXAAOrder":false,"isOrderTeen":false,"isGamma":false,"isPpiOrder":false,"isZapposMafia":false,"hasPrimeNowInfo":false,"isAFN":true,"isOrderItemAssociation":false,"isHeavyBulkyScheduledDelivery":false,"isPharmacyOrder":false,"2":true,"isOrderSVA":false,"hasBudget":false,"isMomentsOrder":false,"isSarekOrder":false,"isHFCOrder":false,"isOwnerNile":false,"isFreshOrder":false,"isOrderCorporateGC":false,"isUpFrontChargeOrder":false,"isTrialOrder":false},"orderId":"902-6353659-5775039","purchaseId":"903-3942233-0275839","daysUntilCancel":"2","orderingRealm":"USAmazon","eventType":"PaymentHardDeclined"}, predicateContextJsonOverride=Optional.empty, delayedEvalPredicateContextJsonOverride=Optional.empty)"
+ruby json_converters.rb '[exec] ControlPlane event:AsyncEventTrigger(eventTriggerId=urn:eeylops:etid:e1190014-a64e-486e-a089-59b5ecc67ad6, initialTriggerTime=2020-09-23T22:39:15.774Z, initialRenderFailureTime=Optional.empty, triggeringRetry=0, renderingRetry=0, stage=TEST, region=NA, blueprintName=OwenBlueprint, sourceEventJson={"marketplaceId":"1","jamesQueryResults":{"isSmileOrder":false,"isOrderB2B":false,"isUFGOrder":false,"isOrderApprovalRequired":false,"containsPrimeSurpriseBoxBuildingItems":false,"orderHasMembershipItems":false,"isXAAOrder":false,"isOrderTeen":false,"isGamma":false,"isPpiOrder":false,"isZapposMafia":false,"hasPrimeNowInfo":false,"isAFN":true,"isOrderItemAssociation":false,"isHeavyBulkyScheduledDelivery":false,"isPharmacyOrder":false,"2":true,"isOrderSVA":false,"hasBudget":false,"isMomentsOrder":false,"isSarekOrder":false,"isHFCOrder":false,"isOwnerNile":false,"isFreshOrder":false,"isOrderCorporateGC":false,"isUpFrontChargeOrder":false,"isTrialOrder":false},"orderId":"902-6353659-5775039","purchaseId":"903-3942233-0275839","daysUntilCancel":"2","orderingRealm":"USAmazon","eventType":"PaymentHardDeclined"}, predicateContextJsonOverride=Optional.empty, delayedEvalPredicateContextJsonOverride=Optional.empty)'
+ruby jc.rb '[exec] ControlPlane event:AsyncEventTrigger(eventTriggerId=urn:eeylops:etid:e1190014-a64e-486e-a089-59b5ecc67ad6, initialTriggerTime=2020-09-23T22:39:15.774Z, initialRenderFailureTime=Optional.empty, triggeringRetry=0, renderingRetry=0, stage=TEST, region=NA, blueprintName=OwenBlueprint, sourceEventJson={"marketplaceId":"1","jamesQueryResults":{"isSmileOrder":false,"isOrderB2B":false,"isUFGOrder":false,"isOrderApprovalRequired":false,"containsPrimeSurpriseBoxBuildingItems":false,"orderHasMembershipItems":false,"isXAAOrder":false,"isOrderTeen":false,"isGamma":false,"isPpiOrder":false,"isZapposMafia":false,"hasPrimeNowInfo":false,"isAFN":true,"isOrderItemAssociation":false,"isHeavyBulkyScheduledDelivery":false,"isPharmacyOrder":false,"2":true,"isOrderSVA":false,"hasBudget":false,"isMomentsOrder":false,"isSarekOrder":false,"isHFCOrder":false,"isOwnerNile":false,"isFreshOrder":false,"isOrderCorporateGC":false,"isUpFrontChargeOrder":false,"isTrialOrder":false},"orderId":"902-6353659-5775039","purchaseId":"903-3942233-0275839","daysUntilCancel":"2","orderingRealm":"USAmazon","eventType":"PaymentHardDeclined"}, predicateContextJsonOverride=Optional.empty, delayedEvalPredicateContextJsonOverride=Optional.empty)'
+ruby jc.rb
+ls
+cs

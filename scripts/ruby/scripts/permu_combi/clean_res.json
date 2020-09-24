@@ -1,0 +1,602 @@
+{
+  "MissingOptIn_NotOptIn_OptInPrimary": [
+    "MissingOptIn",
+    "NotOptIn",
+    "OptInPrimary"
+  ],
+  "MissingOptIn_NotOptIn_OptInPrimaryDiffAddress": [
+    "MissingOptIn",
+    "NotOptIn",
+    "OptInPrimaryDiffAddress"
+  ],
+  "MissingOptIn_NotOptIn_OptInPrimaryDiffShipment": [
+    "MissingOptIn",
+    "NotOptIn",
+    "OptInPrimaryDiffShipment"
+  ],
+  "MissingOptIn_NotOptIn_OptInPrimaryDiffAddressDiffShipment": [
+    "MissingOptIn",
+    "NotOptIn",
+    "OptInPrimaryDiffAddressDiffShipment"
+  ],
+  "MissingOptIn_NotOptIn_OptInNotPrimary": [
+    "MissingOptIn",
+    "NotOptIn",
+    "OptInNotPrimary"
+  ],
+  "MissingOptIn_NotOptIn_OptInNotPrimaryDiffAddress": [
+    "MissingOptIn",
+    "NotOptIn",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "MissingOptIn_NotOptIn_OptInNotPrimaryDiffShipment": [
+    "MissingOptIn",
+    "NotOptIn",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "MissingOptIn_NotOptIn_OptInNotPrimaryDiffAddressDiffShipment": [
+    "MissingOptIn",
+    "NotOptIn",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "MissingOptIn_OptInPrimary_OptInPrimaryDiffAddress": [
+    "MissingOptIn",
+    "OptInPrimary",
+    "OptInPrimaryDiffAddress"
+  ],
+  "MissingOptIn_OptInPrimary_OptInPrimaryDiffShipment": [
+    "MissingOptIn",
+    "OptInPrimary",
+    "OptInPrimaryDiffShipment"
+  ],
+  "MissingOptIn_OptInPrimary_OptInPrimaryDiffAddressDiffShipment": [
+    "MissingOptIn",
+    "OptInPrimary",
+    "OptInPrimaryDiffAddressDiffShipment"
+  ],
+  "MissingOptIn_OptInPrimary_OptInNotPrimary": [
+    "MissingOptIn",
+    "OptInPrimary",
+    "OptInNotPrimary"
+  ],
+  "MissingOptIn_OptInPrimary_OptInNotPrimaryDiffAddress": [
+    "MissingOptIn",
+    "OptInPrimary",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "MissingOptIn_OptInPrimary_OptInNotPrimaryDiffShipment": [
+    "MissingOptIn",
+    "OptInPrimary",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "MissingOptIn_OptInPrimary_OptInNotPrimaryDiffAddressDiffShipment": [
+    "MissingOptIn",
+    "OptInPrimary",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "MissingOptIn_OptInPrimaryDiffAddress_OptInPrimaryDiffShipment": [
+    "MissingOptIn",
+    "OptInPrimaryDiffAddress",
+    "OptInPrimaryDiffShipment"
+  ],
+  "MissingOptIn_OptInPrimaryDiffAddress_OptInPrimaryDiffAddressDiffShipment": [
+    "MissingOptIn",
+    "OptInPrimaryDiffAddress",
+    "OptInPrimaryDiffAddressDiffShipment"
+  ],
+  "MissingOptIn_OptInPrimaryDiffAddress_OptInNotPrimary": [
+    "MissingOptIn",
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimary"
+  ],
+  "MissingOptIn_OptInPrimaryDiffAddress_OptInNotPrimaryDiffAddress": [
+    "MissingOptIn",
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "MissingOptIn_OptInPrimaryDiffAddress_OptInNotPrimaryDiffShipment": [
+    "MissingOptIn",
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "MissingOptIn_OptInPrimaryDiffAddress_OptInNotPrimaryDiffAddressDiffShipment": [
+    "MissingOptIn",
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "MissingOptIn_OptInPrimaryDiffShipment_OptInPrimaryDiffAddressDiffShipment": [
+    "MissingOptIn",
+    "OptInPrimaryDiffShipment",
+    "OptInPrimaryDiffAddressDiffShipment"
+  ],
+  "MissingOptIn_OptInPrimaryDiffShipment_OptInNotPrimary": [
+    "MissingOptIn",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimary"
+  ],
+  "MissingOptIn_OptInPrimaryDiffShipment_OptInNotPrimaryDiffAddress": [
+    "MissingOptIn",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "MissingOptIn_OptInPrimaryDiffShipment_OptInNotPrimaryDiffShipment": [
+    "MissingOptIn",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "MissingOptIn_OptInPrimaryDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "MissingOptIn",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "MissingOptIn_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimary": [
+    "MissingOptIn",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimary"
+  ],
+  "MissingOptIn_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffAddress": [
+    "MissingOptIn",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "MissingOptIn_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffShipment": [
+    "MissingOptIn",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "MissingOptIn_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "MissingOptIn",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "MissingOptIn_OptInNotPrimary_OptInNotPrimaryDiffAddress": [
+    "MissingOptIn",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "MissingOptIn_OptInNotPrimary_OptInNotPrimaryDiffShipment": [
+    "MissingOptIn",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "MissingOptIn_OptInNotPrimary_OptInNotPrimaryDiffAddressDiffShipment": [
+    "MissingOptIn",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "MissingOptIn_OptInNotPrimaryDiffAddress_OptInNotPrimaryDiffShipment": [
+    "MissingOptIn",
+    "OptInNotPrimaryDiffAddress",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "MissingOptIn_OptInNotPrimaryDiffAddress_OptInNotPrimaryDiffAddressDiffShipment": [
+    "MissingOptIn",
+    "OptInNotPrimaryDiffAddress",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "MissingOptIn_OptInNotPrimaryDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "MissingOptIn",
+    "OptInNotPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "NotOptIn_OptInPrimary_OptInPrimaryDiffAddress": [
+    "NotOptIn",
+    "OptInPrimary",
+    "OptInPrimaryDiffAddress"
+  ],
+  "NotOptIn_OptInPrimary_OptInPrimaryDiffShipment": [
+    "NotOptIn",
+    "OptInPrimary",
+    "OptInPrimaryDiffShipment"
+  ],
+  "NotOptIn_OptInPrimary_OptInPrimaryDiffAddressDiffShipment": [
+    "NotOptIn",
+    "OptInPrimary",
+    "OptInPrimaryDiffAddressDiffShipment"
+  ],
+  "NotOptIn_OptInPrimary_OptInNotPrimary": [
+    "NotOptIn",
+    "OptInPrimary",
+    "OptInNotPrimary"
+  ],
+  "NotOptIn_OptInPrimary_OptInNotPrimaryDiffAddress": [
+    "NotOptIn",
+    "OptInPrimary",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "NotOptIn_OptInPrimary_OptInNotPrimaryDiffShipment": [
+    "NotOptIn",
+    "OptInPrimary",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "NotOptIn_OptInPrimary_OptInNotPrimaryDiffAddressDiffShipment": [
+    "NotOptIn",
+    "OptInPrimary",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "NotOptIn_OptInPrimaryDiffAddress_OptInPrimaryDiffShipment": [
+    "NotOptIn",
+    "OptInPrimaryDiffAddress",
+    "OptInPrimaryDiffShipment"
+  ],
+  "NotOptIn_OptInPrimaryDiffAddress_OptInPrimaryDiffAddressDiffShipment": [
+    "NotOptIn",
+    "OptInPrimaryDiffAddress",
+    "OptInPrimaryDiffAddressDiffShipment"
+  ],
+  "NotOptIn_OptInPrimaryDiffAddress_OptInNotPrimary": [
+    "NotOptIn",
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimary"
+  ],
+  "NotOptIn_OptInPrimaryDiffAddress_OptInNotPrimaryDiffAddress": [
+    "NotOptIn",
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "NotOptIn_OptInPrimaryDiffAddress_OptInNotPrimaryDiffShipment": [
+    "NotOptIn",
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "NotOptIn_OptInPrimaryDiffAddress_OptInNotPrimaryDiffAddressDiffShipment": [
+    "NotOptIn",
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "NotOptIn_OptInPrimaryDiffShipment_OptInPrimaryDiffAddressDiffShipment": [
+    "NotOptIn",
+    "OptInPrimaryDiffShipment",
+    "OptInPrimaryDiffAddressDiffShipment"
+  ],
+  "NotOptIn_OptInPrimaryDiffShipment_OptInNotPrimary": [
+    "NotOptIn",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimary"
+  ],
+  "NotOptIn_OptInPrimaryDiffShipment_OptInNotPrimaryDiffAddress": [
+    "NotOptIn",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "NotOptIn_OptInPrimaryDiffShipment_OptInNotPrimaryDiffShipment": [
+    "NotOptIn",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "NotOptIn_OptInPrimaryDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "NotOptIn",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "NotOptIn_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimary": [
+    "NotOptIn",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimary"
+  ],
+  "NotOptIn_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffAddress": [
+    "NotOptIn",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "NotOptIn_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffShipment": [
+    "NotOptIn",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "NotOptIn_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "NotOptIn",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "NotOptIn_OptInNotPrimary_OptInNotPrimaryDiffAddress": [
+    "NotOptIn",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "NotOptIn_OptInNotPrimary_OptInNotPrimaryDiffShipment": [
+    "NotOptIn",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "NotOptIn_OptInNotPrimary_OptInNotPrimaryDiffAddressDiffShipment": [
+    "NotOptIn",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "NotOptIn_OptInNotPrimaryDiffAddress_OptInNotPrimaryDiffShipment": [
+    "NotOptIn",
+    "OptInNotPrimaryDiffAddress",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "NotOptIn_OptInNotPrimaryDiffAddress_OptInNotPrimaryDiffAddressDiffShipment": [
+    "NotOptIn",
+    "OptInNotPrimaryDiffAddress",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "NotOptIn_OptInNotPrimaryDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "NotOptIn",
+    "OptInNotPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimary_OptInPrimaryDiffAddress_OptInPrimaryDiffShipment": [
+    "OptInPrimary",
+    "OptInPrimaryDiffAddress",
+    "OptInPrimaryDiffShipment"
+  ],
+  "OptInPrimary_OptInPrimaryDiffAddress_OptInPrimaryDiffAddressDiffShipment": [
+    "OptInPrimary",
+    "OptInPrimaryDiffAddress",
+    "OptInPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimary_OptInPrimaryDiffAddress_OptInNotPrimary": [
+    "OptInPrimary",
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimary"
+  ],
+  "OptInPrimary_OptInPrimaryDiffAddress_OptInNotPrimaryDiffAddress": [
+    "OptInPrimary",
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "OptInPrimary_OptInPrimaryDiffAddress_OptInNotPrimaryDiffShipment": [
+    "OptInPrimary",
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "OptInPrimary_OptInPrimaryDiffAddress_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimary",
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimary_OptInPrimaryDiffShipment_OptInPrimaryDiffAddressDiffShipment": [
+    "OptInPrimary",
+    "OptInPrimaryDiffShipment",
+    "OptInPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimary_OptInPrimaryDiffShipment_OptInNotPrimary": [
+    "OptInPrimary",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimary"
+  ],
+  "OptInPrimary_OptInPrimaryDiffShipment_OptInNotPrimaryDiffAddress": [
+    "OptInPrimary",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "OptInPrimary_OptInPrimaryDiffShipment_OptInNotPrimaryDiffShipment": [
+    "OptInPrimary",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "OptInPrimary_OptInPrimaryDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimary",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimary_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimary": [
+    "OptInPrimary",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimary"
+  ],
+  "OptInPrimary_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffAddress": [
+    "OptInPrimary",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "OptInPrimary_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffShipment": [
+    "OptInPrimary",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "OptInPrimary_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimary",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimary_OptInNotPrimary_OptInNotPrimaryDiffAddress": [
+    "OptInPrimary",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "OptInPrimary_OptInNotPrimary_OptInNotPrimaryDiffShipment": [
+    "OptInPrimary",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "OptInPrimary_OptInNotPrimary_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimary",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimary_OptInNotPrimaryDiffAddress_OptInNotPrimaryDiffShipment": [
+    "OptInPrimary",
+    "OptInNotPrimaryDiffAddress",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "OptInPrimary_OptInNotPrimaryDiffAddress_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimary",
+    "OptInNotPrimaryDiffAddress",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimary_OptInNotPrimaryDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimary",
+    "OptInNotPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimaryDiffAddress_OptInPrimaryDiffShipment_OptInPrimaryDiffAddressDiffShipment": [
+    "OptInPrimaryDiffAddress",
+    "OptInPrimaryDiffShipment",
+    "OptInPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimaryDiffAddress_OptInPrimaryDiffShipment_OptInNotPrimary": [
+    "OptInPrimaryDiffAddress",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimary"
+  ],
+  "OptInPrimaryDiffAddress_OptInPrimaryDiffShipment_OptInNotPrimaryDiffAddress": [
+    "OptInPrimaryDiffAddress",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "OptInPrimaryDiffAddress_OptInPrimaryDiffShipment_OptInNotPrimaryDiffShipment": [
+    "OptInPrimaryDiffAddress",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "OptInPrimaryDiffAddress_OptInPrimaryDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimaryDiffAddress",
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimaryDiffAddress_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimary": [
+    "OptInPrimaryDiffAddress",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimary"
+  ],
+  "OptInPrimaryDiffAddress_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffAddress": [
+    "OptInPrimaryDiffAddress",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "OptInPrimaryDiffAddress_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffShipment": [
+    "OptInPrimaryDiffAddress",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "OptInPrimaryDiffAddress_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimaryDiffAddress",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimaryDiffAddress_OptInNotPrimary_OptInNotPrimaryDiffAddress": [
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "OptInPrimaryDiffAddress_OptInNotPrimary_OptInNotPrimaryDiffShipment": [
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "OptInPrimaryDiffAddress_OptInNotPrimary_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimaryDiffAddress_OptInNotPrimaryDiffAddress_OptInNotPrimaryDiffShipment": [
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimaryDiffAddress",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "OptInPrimaryDiffAddress_OptInNotPrimaryDiffAddress_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimaryDiffAddress",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimaryDiffAddress_OptInNotPrimaryDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimaryDiffAddress",
+    "OptInNotPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimaryDiffShipment_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimary": [
+    "OptInPrimaryDiffShipment",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimary"
+  ],
+  "OptInPrimaryDiffShipment_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffAddress": [
+    "OptInPrimaryDiffShipment",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "OptInPrimaryDiffShipment_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffShipment": [
+    "OptInPrimaryDiffShipment",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "OptInPrimaryDiffShipment_OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimaryDiffShipment",
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimaryDiffShipment_OptInNotPrimary_OptInNotPrimaryDiffAddress": [
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "OptInPrimaryDiffShipment_OptInNotPrimary_OptInNotPrimaryDiffShipment": [
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "OptInPrimaryDiffShipment_OptInNotPrimary_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimaryDiffShipment_OptInNotPrimaryDiffAddress_OptInNotPrimaryDiffShipment": [
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddress",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "OptInPrimaryDiffShipment_OptInNotPrimaryDiffAddress_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddress",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimaryDiffShipment_OptInNotPrimaryDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimaryDiffShipment",
+    "OptInNotPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimaryDiffAddressDiffShipment_OptInNotPrimary_OptInNotPrimaryDiffAddress": [
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffAddress"
+  ],
+  "OptInPrimaryDiffAddressDiffShipment_OptInNotPrimary_OptInNotPrimaryDiffShipment": [
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "OptInPrimaryDiffAddressDiffShipment_OptInNotPrimary_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffAddress_OptInNotPrimaryDiffShipment": [
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffAddress",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffAddress_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffAddress",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInPrimaryDiffAddressDiffShipment_OptInNotPrimaryDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInPrimaryDiffAddressDiffShipment",
+    "OptInNotPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInNotPrimary_OptInNotPrimaryDiffAddress_OptInNotPrimaryDiffShipment": [
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffAddress",
+    "OptInNotPrimaryDiffShipment"
+  ],
+  "OptInNotPrimary_OptInNotPrimaryDiffAddress_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffAddress",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInNotPrimary_OptInNotPrimaryDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInNotPrimary",
+    "OptInNotPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ],
+  "OptInNotPrimaryDiffAddress_OptInNotPrimaryDiffShipment_OptInNotPrimaryDiffAddressDiffShipment": [
+    "OptInNotPrimaryDiffAddress",
+    "OptInNotPrimaryDiffShipment",
+    "OptInNotPrimaryDiffAddressDiffShipment"
+  ]
+}
