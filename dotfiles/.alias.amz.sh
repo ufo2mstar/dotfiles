@@ -57,6 +57,7 @@ alias bwcr='bw create --root'
 alias bwcn='bw create -n'
 alias bwr='bw remove'
 alias bwrp='bwr --package'
+alias bwshow='brazil ws show'
 
 alias bu='brazil ws use'
 alias buv='bu --versionset'
@@ -75,6 +76,8 @@ alias bwd='brazil ws --dryrun'
 alias bpcs='brazil-package-cache start'
 alias bpcc='brazil-package-cache enable_edge_cache'
 alias bpce='brazil-package-cache stop' # end
+
+alias bbst='bbs | tee "$HOME/$(date +%Y-%m-%d_%H-%M-%S)-server-stdout.txt"'
 
 # brazil ws --clean
 # brazil-package-cache stop

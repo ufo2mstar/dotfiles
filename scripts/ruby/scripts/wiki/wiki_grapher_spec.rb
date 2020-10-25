@@ -15,7 +15,7 @@ require_relative './wiki_grapher'
 # # Send your captured output to the original output stream.
 # STDOUT.puts $stdout.string
 
-describe "csv parse" do
+describe "wiki_print" do
   after() do
     # STDOUT.puts $stdout.string
     # STDOUT.puts $stdout

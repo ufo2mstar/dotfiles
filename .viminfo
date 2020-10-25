@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :q
-|2,0,1597871228,,"q"
+|2,0,1603521010,,"q"
 :wq
 |2,0,1595904475,,"wq"
 :Q
@@ -36,38 +36,82 @@
 |3,1,36,0,1,0,1593665981,"'"
 
 # File marks:
-'0  1258  0  ~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt
-|4,48,1258,0,1597871228,"~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt"
-'1  16  3  ~/mt.shell
-|4,49,16,3,1595904475,"~/mt.shell"
-'2  1  0  ~/timber/test.awk
-|4,50,1,0,1593665988,"~/timber/test.awk"
-'3  1  0  ~/timber/kod.txt
-|4,51,1,0,1593211743,"~/timber/kod.txt"
-'4  1  2  ~/WorkDocs/PROJECTS/08 TOI/.gitignore
-|4,52,1,2,1586833618,"~/WorkDocs/PROJECTS/08 TOI/.gitignore"
-'5  3  0  /usr/bin/easy_install
-|4,53,3,0,1578503264,"/usr/bin/easy_install"
-'6  1  0  ~/easy_install
-|4,54,1,0,1578503219,"~/easy_install"
-'7  7  0  ~/.vimrc
-|4,55,7,0,1578366024,"~/.vimrc"
-'8  1  0  ~/ls-man.txt
-|4,56,1,0,1578365996,"~/ls-man.txt"
-'9  1  0  ~/.tmux.conf
-|4,57,1,0,1578201334,"~/.tmux.conf"
+'0  1  0  ~/.tmux.conf
+|4,48,1,0,1603521010,"~/.tmux.conf"
+'1  1258  0  ~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt
+|4,49,1258,0,1597871228,"~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt"
+'2  16  3  ~/mt.shell
+|4,50,16,3,1595904475,"~/mt.shell"
+'3  1  0  ~/timber/test.awk
+|4,51,1,0,1593665988,"~/timber/test.awk"
+'4  1  0  ~/timber/kod.txt
+|4,52,1,0,1593211743,"~/timber/kod.txt"
+'5  1  2  ~/WorkDocs/PROJECTS/08 TOI/.gitignore
+|4,53,1,2,1586833618,"~/WorkDocs/PROJECTS/08 TOI/.gitignore"
+'6  3  0  /usr/bin/easy_install
+|4,54,3,0,1578503264,"/usr/bin/easy_install"
+'7  1  0  ~/easy_install
+|4,55,1,0,1578503219,"~/easy_install"
+'8  7  0  ~/.vimrc
+|4,56,7,0,1578366024,"~/.vimrc"
+'9  1  0  ~/ls-man.txt
+|4,57,1,0,1578365996,"~/ls-man.txt"
 
 # Jumplist (newest first):
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1603521010,"~/.tmux.conf"
+-'  1258  0  ~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt
+|4,39,1258,0,1597871228,"~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt"
+-'  1258  0  ~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt
+|4,39,1258,0,1597871228,"~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt"
+-'  1258  0  ~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt
+|4,39,1258,0,1597871228,"~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt"
 -'  1258  0  ~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt
 |4,39,1258,0,1597871228,"~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt"
 -'  34  0  ~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt
 |4,39,34,0,1597871219,"~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt"
+-'  34  0  ~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt
+|4,39,34,0,1597871219,"~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt"
+-'  34  0  ~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt
+|4,39,34,0,1597871219,"~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt"
+-'  34  0  ~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt
+|4,39,34,0,1597871219,"~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt"
+-'  1  0  ~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt
+|4,39,1,0,1597871205,"~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt"
+-'  1  0  ~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt
+|4,39,1,0,1597871205,"~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt"
+-'  1  0  ~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt
+|4,39,1,0,1597871205,"~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt"
 -'  1  0  ~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt
 |4,39,1,0,1597871205,"~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt"
 -'  16  3  ~/mt.shell
 |4,39,16,3,1595904475,"~/mt.shell"
 -'  16  3  ~/mt.shell
 |4,39,16,3,1595904475,"~/mt.shell"
+-'  16  3  ~/mt.shell
+|4,39,16,3,1595904475,"~/mt.shell"
+-'  16  3  ~/mt.shell
+|4,39,16,3,1595904475,"~/mt.shell"
+-'  16  3  ~/mt.shell
+|4,39,16,3,1595904475,"~/mt.shell"
+-'  16  3  ~/mt.shell
+|4,39,16,3,1595904475,"~/mt.shell"
+-'  16  3  ~/mt.shell
+|4,39,16,3,1595904475,"~/mt.shell"
+-'  16  3  ~/mt.shell
+|4,39,16,3,1595904475,"~/mt.shell"
+-'  1  0  ~/mt.shell
+|4,39,1,0,1595904469,"~/mt.shell"
+-'  1  0  ~/mt.shell
+|4,39,1,0,1595904469,"~/mt.shell"
+-'  1  0  ~/mt.shell
+|4,39,1,0,1595904469,"~/mt.shell"
+-'  1  0  ~/mt.shell
+|4,39,1,0,1595904469,"~/mt.shell"
+-'  1  0  ~/mt.shell
+|4,39,1,0,1595904469,"~/mt.shell"
+-'  1  0  ~/mt.shell
+|4,39,1,0,1595904469,"~/mt.shell"
 -'  1  0  ~/mt.shell
 |4,39,1,0,1595904469,"~/mt.shell"
 -'  1  0  ~/mt.shell
@@ -80,6 +124,54 @@
 |4,39,1,0,1593665988,"~/timber/test.awk"
 -'  1  0  ~/timber/test.awk
 |4,39,1,0,1593665988,"~/timber/test.awk"
+-'  1  0  ~/timber/test.awk
+|4,39,1,0,1593665988,"~/timber/test.awk"
+-'  1  0  ~/timber/test.awk
+|4,39,1,0,1593665988,"~/timber/test.awk"
+-'  1  0  ~/timber/test.awk
+|4,39,1,0,1593665988,"~/timber/test.awk"
+-'  1  0  ~/timber/test.awk
+|4,39,1,0,1593665988,"~/timber/test.awk"
+-'  1  0  ~/timber/test.awk
+|4,39,1,0,1593665988,"~/timber/test.awk"
+-'  1  0  ~/timber/test.awk
+|4,39,1,0,1593665988,"~/timber/test.awk"
+-'  1  0  ~/timber/test.awk
+|4,39,1,0,1593665988,"~/timber/test.awk"
+-'  1  0  ~/timber/test.awk
+|4,39,1,0,1593665988,"~/timber/test.awk"
+-'  1  0  ~/timber/test.awk
+|4,39,1,0,1593665988,"~/timber/test.awk"
+-'  1  0  ~/timber/test.awk
+|4,39,1,0,1593665988,"~/timber/test.awk"
+-'  1  0  ~/timber/test.awk
+|4,39,1,0,1593665988,"~/timber/test.awk"
+-'  1  0  ~/timber/test.awk
+|4,39,1,0,1593665988,"~/timber/test.awk"
+-'  13  0  ~/timber/test.awk
+|4,39,13,0,1593665974,"~/timber/test.awk"
+-'  13  0  ~/timber/test.awk
+|4,39,13,0,1593665974,"~/timber/test.awk"
+-'  13  0  ~/timber/test.awk
+|4,39,13,0,1593665974,"~/timber/test.awk"
+-'  13  0  ~/timber/test.awk
+|4,39,13,0,1593665974,"~/timber/test.awk"
+-'  13  0  ~/timber/test.awk
+|4,39,13,0,1593665974,"~/timber/test.awk"
+-'  13  0  ~/timber/test.awk
+|4,39,13,0,1593665974,"~/timber/test.awk"
+-'  13  0  ~/timber/test.awk
+|4,39,13,0,1593665974,"~/timber/test.awk"
+-'  13  0  ~/timber/test.awk
+|4,39,13,0,1593665974,"~/timber/test.awk"
+-'  13  0  ~/timber/test.awk
+|4,39,13,0,1593665974,"~/timber/test.awk"
+-'  13  0  ~/timber/test.awk
+|4,39,13,0,1593665974,"~/timber/test.awk"
+-'  13  0  ~/timber/test.awk
+|4,39,13,0,1593665974,"~/timber/test.awk"
+-'  13  0  ~/timber/test.awk
+|4,39,13,0,1593665974,"~/timber/test.awk"
 -'  13  0  ~/timber/test.awk
 |4,39,13,0,1593665974,"~/timber/test.awk"
 -'  13  0  ~/timber/test.awk
@@ -104,6 +196,54 @@
 |4,39,1,0,1593211743,"~/timber/kod.txt"
 -'  1  0  ~/timber/kod.txt
 |4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
+-'  1  0  ~/timber/kod.txt
+|4,39,1,0,1593211743,"~/timber/kod.txt"
 -'  1  2  ~/WorkDocs/PROJECTS/08 TOI/.gitignore
 |4,39,1,2,1586833618,"~/WorkDocs/PROJECTS/08 TOI/.gitignore"
 -'  1  2  ~/WorkDocs/PROJECTS/08 TOI/.gitignore
@@ -118,148 +258,15 @@
 |4,39,1,2,1586833618,"~/WorkDocs/PROJECTS/08 TOI/.gitignore"
 -'  1  2  ~/WorkDocs/PROJECTS/08 TOI/.gitignore
 |4,39,1,2,1586833618,"~/WorkDocs/PROJECTS/08 TOI/.gitignore"
--'  1  2  ~/WorkDocs/PROJECTS/08 TOI/.gitignore
-|4,39,1,2,1586833618,"~/WorkDocs/PROJECTS/08 TOI/.gitignore"
--'  1  2  ~/WorkDocs/PROJECTS/08 TOI/.gitignore
-|4,39,1,2,1586833618,"~/WorkDocs/PROJECTS/08 TOI/.gitignore"
--'  1  2  ~/WorkDocs/PROJECTS/08 TOI/.gitignore
-|4,39,1,2,1586833618,"~/WorkDocs/PROJECTS/08 TOI/.gitignore"
--'  1  2  ~/WorkDocs/PROJECTS/08 TOI/.gitignore
-|4,39,1,2,1586833618,"~/WorkDocs/PROJECTS/08 TOI/.gitignore"
--'  1  2  ~/WorkDocs/PROJECTS/08 TOI/.gitignore
-|4,39,1,2,1586833618,"~/WorkDocs/PROJECTS/08 TOI/.gitignore"
--'  1  2  ~/WorkDocs/PROJECTS/08 TOI/.gitignore
-|4,39,1,2,1586833618,"~/WorkDocs/PROJECTS/08 TOI/.gitignore"
--'  1  2  ~/WorkDocs/PROJECTS/08 TOI/.gitignore
-|4,39,1,2,1586833618,"~/WorkDocs/PROJECTS/08 TOI/.gitignore"
--'  1  2  ~/WorkDocs/PROJECTS/08 TOI/.gitignore
-|4,39,1,2,1586833618,"~/WorkDocs/PROJECTS/08 TOI/.gitignore"
--'  1  2  ~/WorkDocs/PROJECTS/08 TOI/.gitignore
-|4,39,1,2,1586833618,"~/WorkDocs/PROJECTS/08 TOI/.gitignore"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
--'  3  0  /usr/bin/easy_install
-|4,39,3,0,1578503264,"/usr/bin/easy_install"
 
 # History of marks within files (newest to oldest):
+
+> ~/.tmux.conf
+	*	1603521005	0
+	"	1	0
+	^	14	64
+	.	14	63
+	+	14	63
 
 > ~/timber/08-19-2020/16-05-45_P-EU_2020-08-19-19_dialup-check.txt
 	*	1597871226	0
@@ -306,13 +313,6 @@
 > ~/ls-man.txt
 	*	1578365994	0
 	"	1	0
-
-> ~/.tmux.conf
-	*	1578201329	0
-	"	1	0
-	^	14	64
-	.	14	63
-	+	14	63
 
 > /usr/local/Cellar/z/1.9/README
 	*	1576791707	0

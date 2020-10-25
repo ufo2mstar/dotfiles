@@ -31,7 +31,6 @@ tim
 tim -h
 foo -a kod -h
 pp
-ppath
 which tr
 tr --help
 mkdir --help
@@ -222,7 +221,6 @@ k
 echo $_lastfile
 $SECONDS
 echo $SECONDS
-conf config --list
 date
 date "+%c"
 echo "\n\n$(date)\n"
@@ -275,7 +273,6 @@ ca ~/.gitignore
 qry -a -o -r eu -t "2020/08/08/**" -f "test" "grep -P 'this'"
 coc "Upgrade qry script with duration and eval info - v0.2"
 cat 23-38-21_O-EU_2020-08-08_test.txt 
-ks
 cd 08-09-2020/
 cat 00-08-24_O-EU_2020-08-08_test\ this.txt 
 qry -a -o -r eu -t "2020/08/08/**" -f "test_this" "grep -P 'this'"
@@ -346,7 +343,6 @@ coc "clean up qry script and add output file name"
 conf log
 cd kk/
 lat
-lt
 lta
 ltr
 lts
@@ -372,7 +368,6 @@ nl
 which nl
 nl --help
 htop
-pwd
 ca ~/dotfiles/.
 klist
 klist -l
@@ -418,7 +413,6 @@ git branch -r
 git status
 git origin
 git --help
-git push
 git push --set-upstream origin mac
 git branch master
 qey
@@ -447,11 +441,9 @@ ggrep
 bbark -b 4
 which pyenv
 which rbenv
-which nvm
 bbark -b 4 -r eu
 bbark -b 4 -r eu grep error
 bbark -b 4 -r eu "grep error"
-ss
 bbark
 bbark -r eu
 00~array1=() array1+=prova1 
@@ -473,24 +465,17 @@ array1+=(slack640)
 array1+=lack640
 echo ${array1[@]}
 echo ${done[@]}
-bundle install
-ruby -v
-bundle i
 c add .
-which gem
 gem list
 bundle install --local
 wc -l .bash_history
 brazil
 b
-alias
 toolbox
 zz
 which toolbox
 cd EeylopsContexts/
 cd EeylopsCore/
-cd
-cd workplace/
 cd CarnacEventListenerService/
 bwpp
 cs workspace_ruby/.
@@ -501,17 +486,13 @@ cs workspace_ruby/scripts/wiki/.
 ca workspace_ruby/**/.
 ck
 coc -m "WIP: add ruby scripts"
-alias | fzf
 ccm -m "WIP: add ruby scripts"
 ccm "WIP: add ruby scripts"
-cp
 cd src/EeylopsCore/
 kinit -f
 sudo jamf policy -event profile-internally-signed-certificates
 sudo jamf policy -event profile-chrome
-pry
 ccm "move bbark to separate file"
-cd src/
 qry -- "grep 'slapshot'"
 qry -t "2020/09/04/15" -- "grep 'ERROR'"
 qry -t "2020/09/04/16" -- "grep 'slapshot'"
@@ -525,34 +506,25 @@ qry -t "2020/09/04/15" -- "grep -C10 'Exception from subcontract' | grep 'ShipTr
 qry -t "2020/09/04/15" -- "grep -C10 'Exception from subcontract' | grep -C10 'ShipTrackContext'"
 qry -t "2020/09/04/15" -- "grep -C10 'GetLineItem'"
 fd
-qry
 echo $lastfile
 alias s
 zsh
-ssh eeylops-timber-fs-iad-1a-b98398c0.us-east-1.amazon.com
 ca
 ca dotfiles/.
 ca scripts/.
 git add
-git add -u 
 cm "move ./workspace* items to ./scripts"
 ccm "move ./workspace* items to ./scripts"
 c log
 cpush
-c push
-cs
 c dag
-c push origin
 cd src/EeylopsCore
 qry -t "2020/09/04/15" -- "grep -C10 'Failure while evaluating predicate.'"
 qry -- "grep -C10 'Failure'"
 qry -r eu -- "grep '307' "
 qry -r eu -- "grep 'EVENT_307' "
-qry -- "grep -C10 'Failure while'"
 cd src/EeylopsSerialization/
-brazil versionset clone --from Eeylops/mainline --to EeylopsDryRuns/dry-cr-$USER-$(date "+%Y-%m-%d") && brazil workspace --use --vs EeylopsDryRuns/dry-cr-$USER-$(date "+%Y-%m-%d")
 alias bed
-alias bwd
 cr --help
 cd -i EeylopsContexts -i EeylopsControlPlane -i EeylopsCore -i EeylopsEvaluator -i EeylopsSerialization
 cd EeylopsControlPlane/
@@ -560,41 +532,17 @@ alias brc
 brc bbf
 brc format
 cd EeylopsCore
-bbf && bb
 cd src/EeylopsEvaluator/
 history
-bbf
-bb
-bwd
-cr -i EeylopsContexts -i EeylopsControlPlane -i EeylopsCore -i EeylopsEvaluator -i EeylopsSerialization
-s
-bbr
-ndss
-cd..
 la
-d
-nds
-ls
-s
-ls
-cs
 conf config --list
 git add -u 
-cs
 ccm "Add mac home dotfiles"
-ls
 cd scripts/wiki/
 rspec wiki_grapher_spec.rb preset_slapshot_indiv
 rspec wiki_grapher_spec.rb -e preset_slapshot_indiv
-d
-bbf
-bb
-ls
 cd src/EeylopsControlPlane/
 bbr
-bb
-cr -i EeylopsContexts -i EeylopsControlPlane -i EeylopsCore -i EeylopsEvaluator -i EeylopsSerialization
-cd..
 cd textedit/
 ruby json_converters.rb [exec] ControlPlane event:AsyncEventTrigger(eventTriggerId=urn:eeylops:etid:e1190014-a64e-486e-a089-59b5ecc67ad6, initialTriggerTime=2020-09-23T22:39:15.774Z, initialRenderFailureTime=Optional.empty, triggeringRetry=0, renderingRetry=0, stage=TEST, region=NA, blueprintName=OwenBlueprint, sourceEventJson={"marketplaceId":"1","jamesQueryResults":{"isSmileOrder":false,"isOrderB2B":false,"isUFGOrder":false,"isOrderApprovalRequired":false,"containsPrimeSurpriseBoxBuildingItems":false,"orderHasMembershipItems":false,"isXAAOrder":false,"isOrderTeen":false,"isGamma":false,"isPpiOrder":false,"isZapposMafia":false,"hasPrimeNowInfo":false,"isAFN":true,"isOrderItemAssociation":false,"isHeavyBulkyScheduledDelivery":false,"isPharmacyOrder":false,"2":true,"isOrderSVA":false,"hasBudget":false,"isMomentsOrder":false,"isSarekOrder":false,"isHFCOrder":false,"isOwnerNile":false,"isFreshOrder":false,"isOrderCorporateGC":false,"isUpFrontChargeOrder":false,"isTrialOrder":false},"orderId":"902-6353659-5775039","purchaseId":"903-3942233-0275839","daysUntilCancel":"2","orderingRealm":"USAmazon","eventType":"PaymentHardDeclined"}, predicateContextJsonOverride=Optional.empty, delayedEvalPredicateContextJsonOverride=Optional.empty)
 ruby json_converters.rb 
@@ -602,5 +550,277 @@ ruby json_converters.rb "[exec] ControlPlane event:AsyncEventTrigger(eventTrigge
 ruby json_converters.rb '[exec] ControlPlane event:AsyncEventTrigger(eventTriggerId=urn:eeylops:etid:e1190014-a64e-486e-a089-59b5ecc67ad6, initialTriggerTime=2020-09-23T22:39:15.774Z, initialRenderFailureTime=Optional.empty, triggeringRetry=0, renderingRetry=0, stage=TEST, region=NA, blueprintName=OwenBlueprint, sourceEventJson={"marketplaceId":"1","jamesQueryResults":{"isSmileOrder":false,"isOrderB2B":false,"isUFGOrder":false,"isOrderApprovalRequired":false,"containsPrimeSurpriseBoxBuildingItems":false,"orderHasMembershipItems":false,"isXAAOrder":false,"isOrderTeen":false,"isGamma":false,"isPpiOrder":false,"isZapposMafia":false,"hasPrimeNowInfo":false,"isAFN":true,"isOrderItemAssociation":false,"isHeavyBulkyScheduledDelivery":false,"isPharmacyOrder":false,"2":true,"isOrderSVA":false,"hasBudget":false,"isMomentsOrder":false,"isSarekOrder":false,"isHFCOrder":false,"isOwnerNile":false,"isFreshOrder":false,"isOrderCorporateGC":false,"isUpFrontChargeOrder":false,"isTrialOrder":false},"orderId":"902-6353659-5775039","purchaseId":"903-3942233-0275839","daysUntilCancel":"2","orderingRealm":"USAmazon","eventType":"PaymentHardDeclined"}, predicateContextJsonOverride=Optional.empty, delayedEvalPredicateContextJsonOverride=Optional.empty)'
 ruby jc.rb '[exec] ControlPlane event:AsyncEventTrigger(eventTriggerId=urn:eeylops:etid:e1190014-a64e-486e-a089-59b5ecc67ad6, initialTriggerTime=2020-09-23T22:39:15.774Z, initialRenderFailureTime=Optional.empty, triggeringRetry=0, renderingRetry=0, stage=TEST, region=NA, blueprintName=OwenBlueprint, sourceEventJson={"marketplaceId":"1","jamesQueryResults":{"isSmileOrder":false,"isOrderB2B":false,"isUFGOrder":false,"isOrderApprovalRequired":false,"containsPrimeSurpriseBoxBuildingItems":false,"orderHasMembershipItems":false,"isXAAOrder":false,"isOrderTeen":false,"isGamma":false,"isPpiOrder":false,"isZapposMafia":false,"hasPrimeNowInfo":false,"isAFN":true,"isOrderItemAssociation":false,"isHeavyBulkyScheduledDelivery":false,"isPharmacyOrder":false,"2":true,"isOrderSVA":false,"hasBudget":false,"isMomentsOrder":false,"isSarekOrder":false,"isHFCOrder":false,"isOwnerNile":false,"isFreshOrder":false,"isOrderCorporateGC":false,"isUpFrontChargeOrder":false,"isTrialOrder":false},"orderId":"902-6353659-5775039","purchaseId":"903-3942233-0275839","daysUntilCancel":"2","orderingRealm":"USAmazon","eventType":"PaymentHardDeclined"}, predicateContextJsonOverride=Optional.empty, delayedEvalPredicateContextJsonOverride=Optional.empty)'
 ruby jc.rb
-ls
+ca -u
+ca ./scripts/.
+ca ./scripts/*
+ccm "add textedit scripts"
 cs
+cp
+c push
+c push origin
+%HOME
+ss
+cd cdd
+alias ss
+cr -i EeylopsContexts -i EeylopsControlPlane -i EeylopsCore -i EeylopsEvaluator -i EeylopsSerialization
+l
+npm
+which node
+gem i rails
+ep
+alias
+rails uninstall
+where bundler
+which where
+bi where
+where
+echo $PATH
+which tails
+which rails
+nvm use 12.14
+npm i yarn
+gem i bundler
+bundle upgrade
+bin/rails sbundle -v
+rails generate --help
+rails generate rspec:install
+railss
+rspec
+rails g controller WikiIgrapher index
+cd workplace/local/repos/
+npm install -g mdb-cli
+mdb init
+mdb login
+bundler -v
+rails setup
+rails update
+bin/update
+sprockets-rails -v
+gem list spr
+yarn i
+yarn install popper jquery
+yarn add popper jquery
+yarn add @types/popper
+yarn add "@types/popper"
+yarn add "@types/jquery"
+ssh vairang
+rails s
+yarn install --check-files
+rails generate scaffold preview
+rake
+ bin/rails db:migrate RAILS_ENV=test
+bin/rails db:migrate RAILS_ENV=development
+node -v
+npm -v
+npm install yarn
+npm install -g yarn
+npm install -g npm
+yarn -v
+which yarn
+bin/rails generate migration Previews str_input:string:index json_output:text
+bin/rails generate migration AddParamsToPreviews str_input:string:index json_output:text
+bin/rails db:migrate
+bundle install
+rake routes
+ipconfig
+gem install localtunnel
+localtunnel
+npm install -g localtunnel
+localtunnel 3000
+alias lt
+lt
+lt --port 3000
+lt --port 80
+ping localhost
+ping http://192.168.1.213/
+ping 192.168.1.213
+ping 192.168.1.213:3000
+npx localtunnel --port 3000
+alias bwd
+git push
+ git push --set-upstream origin mainline
+cd workplace/
+bwp RailsOctaneTemplates
+brazil --setup
+brazil --htlp
+brazil --help
+brazil setup
+brazil setup ruby
+brazil setup --ruby
+toolbox update
+bb spec
+bwp
+brazil setup platform-support
+bbre
+ndss
+yarn run
+yarn start
+yarn start:dev
+cd .rbenv/
+cd versions/
+which nvm
+cd
+openssl
+rbenv list
+rbenv install list
+rbenv install --list
+rbenv -v
+rbenv
+rbenv global
+rbenv local
+which gem
+whereis ruby
+ppath
+cd /Users/narensub/.rbenv/shims/ruby
+cd /Users/narensub/.rbenv/shims/
+rbenv which
+rbenv which ruby
+nvm
+nvm -v
+nvm versions
+nvm list
+npm install --global sort-package-json
+cat package.json 
+npx sort-package-json
+bundle i
+yarn add core-js@3
+bin/webpack-dev-server --profile --json > stats.json
+yarn add prettier -D
+yarn add eslint eslint-config-prettier -D
+yarn add eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-sort-imports-es6-autofix -D
+npx webpack
+webpack --help
+webpack --hot
+bin/webpack-dev-server --hot
+yarn add jest jest-config jest-each jest-each-table jest-mock-console -D
+cd workplace/local/
+cd repos/
+git clone https://github.com/vaibhavr4/QuickScriptsProto.git
+npm i
+yarn add -D speed-measure-webpack-plugin
+yarn add -D webpack
+bin/rails -v
+rails -v
+which ruby
+ruby -v
+bin/webpack
+webpack
+webpack-dev-server
+npm run start
+yarn install
+bin/rails s
+yarn add -D ts-jest
+yarn add -D babel-loader @babel/core @babel/preset-env
+tsc
+yarn add -D @babel/plugin-transform-runtime
+npm start
+bin/rails s -e development
+babel
+npm ls -g
+which npm
+npm ls -g --depth 0
+npm i -g babel-cli
+babel -v
+babel --version
+yarn add -D webpack-bundle-analyzer
+bin/webpack-dev-server --mode=development
+bin/webpack-dev-server
+yarn add -D @typescript-eslint/parser
+yarn add -D @typescript-eslint/eslint-plugin
+qry -o -- 'grep "Error"'
+qry -o -- 'grep "Failed"'
+qry -o -- 'grep -C10 "Failed"'
+qry -o -- 'grep -C20 "Failed"'
+pey
+qry -o -- 'grep -C10 "\[ERROR\]"'
+qry -o -- 'grep -C10 "[ERROR]"'
+qry -o -t '2020/10/21/19' -- 'grep -C10 "[ERROR]"'
+qry -o -t '2020/10/21/19' -- 'grep -C10 "\[ERROR\]"'
+qry -o -t '2020/10/21/19' -- 'grep -C10 "ERROR"'
+qry -o -t '2020/10/21/17' -- 'grep -C10 "ERROR"'
+qry -o -t '2020/10/21/17' -- 'grep -C10 "21 Oct 2020 17:00:05,157 [ERROR] a134d56a-965e-4afc-a91a-035781e8ef74 (control-plane-thread-234) com.amazon.eeylops.controlplane.async.TriggeredEventQueueConsumer: Failed triggering notification for event (triggeringRetry: 17, renderingRetry: 0): AsyncEventTrigger(eventTriggerId=urn:eeylops:etid:d1d200b5-a03d-4bf0-9685-a7b76f659c05, initialTriggerTime=2020-10-21T13:42:38.767Z, initialRenderFailureTime=Optional.empty, triggeringRetry=17, renderingRetry=0, stage=PROD, region=NA, blueprintName=UnifiedEventBlueprint, sourceEventJson={"marketplaceId":"A2EUQ1WTGCTBG2","containerId":"201006081448504062778710201AZ","orderId":"702-7916582-5109831","orderingShipmentId":"DhhKDRcRz","trackingId":"4006318296179501","packageId":1,"eventCode":"EVENT_404","eventOccurrenceDate":"2020-10-16T16:04:58Z"}, predicateContextJsonOverride=Optional.empty, delayedEvalPredicateContextJsonOverride=Optional.empty)"'
+qry -o -t '2020/10/21/17' -- 'grep -A10 "Failed triggering notification for event"'
+zgrep 'ERROR' apollo/env/EeylopsService/var/output/logs/application.log.2020-10-21-20 | grep -v 'Failed to determine weblab treatment using isLnftFailure field' | grep 'blueprintName=GmpShipmentStatusEventBlueprint' | grep -Po '\"standardCarrierAlphaCode\"\:\"[\w_]+' | sort | uniq -c | sort -rn
+qry -o -t '2020/10/21/20' -- 'grep -A10 "ERROR"'
+pry
+qry -o -t '2020/10/21/22' -- 'grep -B5 -A10 "This MetricDescriptorsRecorder has finalized recording and cannot record new metrics"'
+qry -o -t '2020/10/21/21' -- 'grep -B5 -A10 "This MetricDescriptorsRecorder has finalized recording and cannot record new metrics"'ß
+qry -o -t '2020/10/21/21' -- 'grep -B5 -A10 "This MetricDescriptorsRecorder has finalized recording and cannot record new metrics"'
+qry -o -t '2020/10/21/21' -- 'grep -B5 -A10 "has finalized recording and cannot record new metrics"'
+qry -o -t '2020/10/21/21' -- 'grep -C10 "has finalized recording and cannot record new metrics"'
+qry -o -t '2020/10/21/21' -- "grep -C10 'has finalized recording and cannot record new metrics'"
+qry -o -t '2020/10/21/21' -- "grep 'bddc5b04-5d0f-4718-af0b-efd850d955b0'"
+qry -o -t '2020/10/21/21' -- "grep 'Evaluated successfully with Context'"
+qry -o -t '2020/10/21/21' -- "grep 'AR0MLTXMM6JRY'"
+qry -o -t '2020/10/21/21' -- "grep 'Failed in OptIn Workflow'"
+ks
+pwd
+cd src/
+cd..
+brazil versionset clone --from Eeylops/mainline --to EeylopsDryRuns/dry-cr-$USER-$(date "+%Y-%m-%d") && brazil workspace --use --vs EeylopsDryRuns/dry-cr-$USER-$(date "+%Y-%m-%d")
+qry -o -t '2020/10/21/21' -- "grep 'ea3df788-e675-4c00-aeba-96872eec61ae'"
+qry -o -t '2020/10/21/21' -- "grep '219e410b-d504-49be-b61c-33075980b10a'"
+bb
+bbf && bb
+bwd
+cr
+nohup
+nds
+qry -- "grep -C10 'Failure while'"
+qry
+qry -t "2020/10/20/09"-- "grep -C10 'A283RJD52BT5NK'"
+qry -t "2020/10/20/09" -- "grep -C10 'A283RJD52BT5NK'"
+qry -t "2020/10/20/16" -- "grep -C10 'A283RJD52BT5NK'"
+qry -o -- 'grep -C10 "OptIn"'
+qry -o -- 'grep -C2 "OptIn"'
+qry -o -- 'grep -C2 "OptInMetric"'
+qry -- 'grep -C2 "OptInMetric"'
+qry -t "2020/10/23/20" -- "grep -C10 '112-3821987-780665801'"
+qry -t "2020/10/23/20" -- "grep ''"
+qry -t "2020/10/23/20" -- "grep 'OptInConfirmation'"
+qry -t "2020/10/23/21" -- "grep 'OptInConfirmation'"
+qry -t "2020/10/23/21" -- "grep '00~112-3821987-78066580'"
+qry -t "2020/10/23/20" -- "grep '112-3821987-78066580'"
+qry -w -t "2020/10/23/20" -- "grep 'GSF_US_OPTINCONF_USECASE_SMS_307085'"
+qry -w -t "2020/10/23/20" -- "grep 'GSF'"
+qry -w -t "2020/10/23/20" -- "grep ''"
+qry -w -t "2020/10/23/19" -- "grep '112-3821987-78066580'"
+qry -w -t "2020/10/23/20" -- "grep '112-3821987-78066580'"
+qry -w -t "2020/10/23/20" -- "grep -P '112-3821987-78066580|112-1333866-3105030|112-4218870-3501010'"
+qry -t "2020/10/23/21" -- "grep -P '112-3821987-78066580|112-1333866-3105030|112-4218870-3501010'"
+ssh eeylops-onebox-na-1e-e54d1b07
+ssh eeylops-onebox-na-1e-e54d1b07.us-east-1.amazon.com
+qry -t "2020/10/23/20" -- "grep -P '112-3821987-78066580|112-1333866-3105030|112-4218870-3501010'"
+ssh cs-timber-fs-iad-1d-654113c3.us-east-1.amazon.co
+ssh cs-timber-fs-iad-1d-654113c3.us-east-1.amazon.com
+qry -t "2020/10/23/20" -- "grep -P 'OptInConfirmation'"
+qry -t "2020/10/23/22" -- "grep -P 'OptInConfirmation'"
+qry -t "2020/10/23/21" -- "grep -P 'OptInConfirmation'"
+t
+ssh eeylops-timber-fs-iad-1a-b98398c0.us-east-1.amazon.com
+qry -t "2020/10/23/22" -- "grep -P 'bc523dfd-beb8-4b6d-9acf-051e6a11decc'"
+s
+qry -t "2020/10/24/{00,01}" -- "grep -P 'OptInConfirmation'"
+tmux
+qry -t "2020/10/23/21" -- "grep -P 'OptInConfirmation|AYWE1S8TF9GMZ|A3RCQAS5DUW3PG|AP6XSHOQXZER0|A1MVBN8UYPUIYM|A2NQE3NABM9WEJ|A1A8PEUJ25GW5E|A2BFZQ6OLIQIWD|A16BC6DWZ5W26F' -C5"
+qry -t "2020/10/24/{00,01}" -- "grep -P -C2 'OptInConfirmation|AYWE1S8TF9GMZ|A3RCQAS5DUW3PG|AP6XSHOQXZER0|A1MVBN8UYPUIYM|A2NQE3NABM9WEJ|A1A8PEUJ25GW5E|A2BFZQ6OLIQIWD|A16BC6DWZ5W26F'"
+ta
+tls
+alias | fzf
+fzf alias
+vim
+ls
+cat .tmux.conf 
+vim .tmux.conf 
+cd src/EeylopsService
+cr-pull CR-35079488:1
+bbf
+d
+s
+ss
+cd cdd
+cs
+ca
+cas
+ca -s
+cau

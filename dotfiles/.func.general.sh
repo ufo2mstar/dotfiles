@@ -10,6 +10,27 @@ function cd() {
     builtin cd "$@" && ls -F
 }
 
+# = add to path
+# https://unix.stackexchange.com/questions/217622/add-path-to-path-if-not-already-in-path
+# https://unix.stackexchange.com/a/217629/365280
+path_append () {
+    pathmunge "$1" "after"
+}
+
+path_prepend () {
+    pathmunge "$1"
+}
+
+pathmunge () {
+    if ! echo "$PATH" | grep -Eq "(^|:)$1($|:)" ; then
+        if [ "$2" = "after" ] ; then
+            export PATH="$PATH:$1"
+        else
+            export PATH="$1:$PATH"
+        fi
+    fi
+}
+
 # bash change http://ezprompt.net/
 # get current branch in git repo
 function parse_git_branch() {

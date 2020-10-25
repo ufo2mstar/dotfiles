@@ -64,7 +64,8 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Ho
 # eval "$(pyenv init -)"
 # run only if pyenv is present
 if which pyenv >/dev/null; then eval "$(pyenv init -)"; fi
-export PATH=$HOME/bin/anaconda3/bin:$PATH
+# export PATH=$HOME/bin/anaconda3/bin:$PATH
+path_prepend $HOME/bin/anaconda3/bin
 
 # nvm
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
@@ -87,6 +88,4 @@ alias dv="ssh dev -vvv"
 
 # = Path Changes
 # MAC setup
-export PATH=/usr/local/bin:$PATH
-export PATH=$HOME/.toolbox/bin:$PATH
-export PATH=$HOME/bin:$PATH
+path_append $HOME/.toolbox/bin:$HOME/bin:/usr/local/bin

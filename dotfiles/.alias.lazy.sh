@@ -9,7 +9,7 @@ alias cd..='cd ..'
 alias al='alias'
 
 ## ls shortcuts
-alias lt='ls -ltah'
+alias ltl='ls -ltah'
 alias lts='ls -Slah'
 alias ltsr='ls -Srlah'
 alias la='ls -at'
@@ -59,8 +59,10 @@ alias gt='gradle test'
 
 
 # pretty print path!
-alias ppath="tr ':' '\n' <<< '$PATH'"
-
+# alias ppath="tr ':' '\n' <<< '$PATH'"
+ppath(){
+    echo ${"tr ':' '\n' <<< '$PATH'"}
+}
 
 # https://superuser.com/questions/600090/avoiding-accidental-rm-disasters
 alias rm="rm -i"
@@ -123,3 +125,4 @@ export DISPLAY=:0
 # gitfarm	ssh://git.amazon.com/pkg/Narensub-dotfiles (push)
 # origin	https://github.com/ufo2mstar/dotfiles.git (fetch)
 # origin	https://github.com/ufo2mstar/dotfiles.git (push)
+
