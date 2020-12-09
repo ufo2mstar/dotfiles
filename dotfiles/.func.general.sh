@@ -5,6 +5,15 @@ prompt_context() {
     fi
 }
 
+# echo 'mkdir -p "$(date +%Y-%m-%d)" && lastfile="$(date +%Y-%m-%d/%H-%M-%S)-"'$1'".txt" && '$2''
+st(){
+  echo 'mkdir -p "$HOME/server_logs/$(date +%Y-%m-%d)" && lastfile="$HOME/server_logs/$(date +%Y-%m-%d/%H-%M-%S)-'$1'.txt" && ('$2' | tee '$lastfile')'
+  eval 'mkdir -p "$HOME/server_logs/$(date +%Y-%m-%d)" && lastfile="$HOME/server_logs/$(date +%Y-%m-%d/%H-%M-%S)-'$1'.txt" && ('$2' | tee '$lastfile')'
+}
+
+# st es bbs
+# mkdir -p "$HOME/server_logs/$(date +%Y-%m-%d)" && lastfile="$HOME/server_logs/$(date +%Y-%m-%d/%H-%M-%S)-"es".txt" && bbs | tee lastfile
+
 # = cd with auto-ls
 function cd() {
     builtin cd "$@" && ls -F

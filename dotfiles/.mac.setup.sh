@@ -89,3 +89,14 @@ alias dv="ssh dev -vvv"
 # = Path Changes
 # MAC setup
 path_append $HOME/.toolbox/bin:$HOME/bin:/usr/local/bin
+
+# Elastic Beanstalk CLI
+# got after these commands:
+# brew upgrade openssl@1.1
+# brew info zlib
+# brew install zlib openssl readline
+# CFLAGS="-I$(brew --prefix openssl)/include -I$(brew --prefix readline)/include -I$(xcrun --show-sdk-path)/usr/include" LDFLAGS="-L$(brew --prefix openssl)/lib -L$(brew --prefix readline)/lib -L$(brew --prefix zlib)/lib"
+# ./aws-elastic-beanstalk-cli-setup/scripts/bundled_installer | tee 'bundled_inst.txt'
+# 
+# successfully installed
+path_append $HOME/.ebcli-virtual-env/executables

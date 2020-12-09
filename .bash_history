@@ -156,7 +156,6 @@ echo "''"
 echo '""'
 echo '"'
 echo '"'"
-"
 echo `"k'`
 echo '''
 echo '\''
@@ -209,7 +208,6 @@ datetime="2020/08/08/**" && search="grep -P 'this'" && filename="test" && lastfi
 cat query
 cat 01-14-10_O-EU_2020-08-08_test.txt 
 head -n10 01-14-10_O-EU_2020-08-08_test.txt 
-cd 
 ca .
 coc "add easy timber log search script - qry WIP"
 print '\n%20s\n' | tr ' ' '-'
@@ -334,7 +332,6 @@ cat "ss.txt"  | ggrep -Po '(?<=\]) ([a-z0-9-]+)? (?=\(.+ATVPDKIKX0DER)' | sort |
 cat "ss.txt"  | ggrep -Po '(?<=\]) ([a-z0-9-]+)? (?=\(.+ATVPDKIKX0DER)' | sort | uniq -c | sort -rn
 qry -a -o -r eu -t "2020/08/08/**" -f "kod this" "grep -P 'this'"
 lth
-exit
 cd 08-10-2020/
 source ~/dotfiles/.script.qry.sh
 qry -a -o -r eu -t 2020/08/08/** -f any-nonspaced_andReasonablyEscaped~string -- "grep -P 'this'"
@@ -410,7 +407,6 @@ git branch
 git branch-r
 git remote add origin https://github.com/ufo2mstar/dotfiles.git
 git branch -r
-git status
 git origin
 git --help
 git push --set-upstream origin mac
@@ -472,7 +468,6 @@ wc -l .bash_history
 brazil
 b
 toolbox
-zz
 which toolbox
 cd EeylopsContexts/
 cd EeylopsCore/
@@ -488,7 +483,6 @@ ck
 coc -m "WIP: add ruby scripts"
 ccm -m "WIP: add ruby scripts"
 ccm "WIP: add ruby scripts"
-cd src/EeylopsCore/
 kinit -f
 sudo jamf policy -event profile-internally-signed-certificates
 sudo jamf policy -event profile-chrome
@@ -509,7 +503,6 @@ fd
 echo $lastfile
 alias s
 zsh
-ca
 ca dotfiles/.
 ca scripts/.
 git add
@@ -527,7 +520,6 @@ cd src/EeylopsSerialization/
 alias bed
 cr --help
 cd -i EeylopsContexts -i EeylopsControlPlane -i EeylopsCore -i EeylopsEvaluator -i EeylopsSerialization
-cd EeylopsControlPlane/
 alias brc
 brc bbf
 brc format
@@ -550,17 +542,12 @@ ruby json_converters.rb "[exec] ControlPlane event:AsyncEventTrigger(eventTrigge
 ruby json_converters.rb '[exec] ControlPlane event:AsyncEventTrigger(eventTriggerId=urn:eeylops:etid:e1190014-a64e-486e-a089-59b5ecc67ad6, initialTriggerTime=2020-09-23T22:39:15.774Z, initialRenderFailureTime=Optional.empty, triggeringRetry=0, renderingRetry=0, stage=TEST, region=NA, blueprintName=OwenBlueprint, sourceEventJson={"marketplaceId":"1","jamesQueryResults":{"isSmileOrder":false,"isOrderB2B":false,"isUFGOrder":false,"isOrderApprovalRequired":false,"containsPrimeSurpriseBoxBuildingItems":false,"orderHasMembershipItems":false,"isXAAOrder":false,"isOrderTeen":false,"isGamma":false,"isPpiOrder":false,"isZapposMafia":false,"hasPrimeNowInfo":false,"isAFN":true,"isOrderItemAssociation":false,"isHeavyBulkyScheduledDelivery":false,"isPharmacyOrder":false,"2":true,"isOrderSVA":false,"hasBudget":false,"isMomentsOrder":false,"isSarekOrder":false,"isHFCOrder":false,"isOwnerNile":false,"isFreshOrder":false,"isOrderCorporateGC":false,"isUpFrontChargeOrder":false,"isTrialOrder":false},"orderId":"902-6353659-5775039","purchaseId":"903-3942233-0275839","daysUntilCancel":"2","orderingRealm":"USAmazon","eventType":"PaymentHardDeclined"}, predicateContextJsonOverride=Optional.empty, delayedEvalPredicateContextJsonOverride=Optional.empty)'
 ruby jc.rb '[exec] ControlPlane event:AsyncEventTrigger(eventTriggerId=urn:eeylops:etid:e1190014-a64e-486e-a089-59b5ecc67ad6, initialTriggerTime=2020-09-23T22:39:15.774Z, initialRenderFailureTime=Optional.empty, triggeringRetry=0, renderingRetry=0, stage=TEST, region=NA, blueprintName=OwenBlueprint, sourceEventJson={"marketplaceId":"1","jamesQueryResults":{"isSmileOrder":false,"isOrderB2B":false,"isUFGOrder":false,"isOrderApprovalRequired":false,"containsPrimeSurpriseBoxBuildingItems":false,"orderHasMembershipItems":false,"isXAAOrder":false,"isOrderTeen":false,"isGamma":false,"isPpiOrder":false,"isZapposMafia":false,"hasPrimeNowInfo":false,"isAFN":true,"isOrderItemAssociation":false,"isHeavyBulkyScheduledDelivery":false,"isPharmacyOrder":false,"2":true,"isOrderSVA":false,"hasBudget":false,"isMomentsOrder":false,"isSarekOrder":false,"isHFCOrder":false,"isOwnerNile":false,"isFreshOrder":false,"isOrderCorporateGC":false,"isUpFrontChargeOrder":false,"isTrialOrder":false},"orderId":"902-6353659-5775039","purchaseId":"903-3942233-0275839","daysUntilCancel":"2","orderingRealm":"USAmazon","eventType":"PaymentHardDeclined"}, predicateContextJsonOverride=Optional.empty, delayedEvalPredicateContextJsonOverride=Optional.empty)'
 ruby jc.rb
-ca -u
 ca ./scripts/.
 ca ./scripts/*
 ccm "add textedit scripts"
-cs
-cp
 c push
 c push origin
 %HOME
-ss
-cd cdd
 alias ss
 cr -i EeylopsContexts -i EeylopsControlPlane -i EeylopsCore -i EeylopsEvaluator -i EeylopsSerialization
 l
@@ -585,9 +572,7 @@ bin/rails sbundle -v
 rails generate --help
 rails generate rspec:install
 railss
-rspec
 rails g controller WikiIgrapher index
-cd workplace/local/repos/
 npm install -g mdb-cli
 mdb init
 mdb login
@@ -597,7 +582,6 @@ rails update
 bin/update
 sprockets-rails -v
 gem list spr
-yarn i
 yarn install popper jquery
 yarn add popper jquery
 yarn add @types/popper
@@ -609,20 +593,16 @@ yarn install --check-files
 rails generate scaffold preview
 rake
  bin/rails db:migrate RAILS_ENV=test
-bin/rails db:migrate RAILS_ENV=development
 node -v
 npm -v
 npm install yarn
-npm install -g yarn
 npm install -g npm
 yarn -v
-which yarn
 bin/rails generate migration Previews str_input:string:index json_output:text
 bin/rails generate migration AddParamsToPreviews str_input:string:index json_output:text
 bin/rails db:migrate
 bundle install
 rake routes
-ipconfig
 gem install localtunnel
 localtunnel
 npm install -g localtunnel
@@ -654,13 +634,11 @@ brazil setup platform-support
 bbre
 ndss
 yarn run
-yarn start
 yarn start:dev
 cd .rbenv/
 cd versions/
 which nvm
 cd
-openssl
 rbenv list
 rbenv install list
 rbenv install --list
@@ -681,8 +659,6 @@ nvm versions
 nvm list
 npm install --global sort-package-json
 cat package.json 
-npx sort-package-json
-bundle i
 yarn add core-js@3
 bin/webpack-dev-server --profile --json > stats.json
 yarn add prettier -D
@@ -693,8 +669,6 @@ webpack --help
 webpack --hot
 bin/webpack-dev-server --hot
 yarn add jest jest-config jest-each jest-each-table jest-mock-console -D
-cd workplace/local/
-cd repos/
 git clone https://github.com/vaibhavr4/QuickScriptsProto.git
 npm i
 yarn add -D speed-measure-webpack-plugin
@@ -703,28 +677,23 @@ bin/rails -v
 rails -v
 which ruby
 ruby -v
-bin/webpack
 webpack
 webpack-dev-server
 npm run start
-yarn install
 bin/rails s
 yarn add -D ts-jest
 yarn add -D babel-loader @babel/core @babel/preset-env
 tsc
 yarn add -D @babel/plugin-transform-runtime
 npm start
-bin/rails s -e development
 babel
 npm ls -g
-which npm
 npm ls -g --depth 0
 npm i -g babel-cli
 babel -v
 babel --version
 yarn add -D webpack-bundle-analyzer
 bin/webpack-dev-server --mode=development
-bin/webpack-dev-server
 yarn add -D @typescript-eslint/parser
 yarn add -D @typescript-eslint/eslint-plugin
 qry -o -- 'grep "Error"'
@@ -756,16 +725,10 @@ qry -o -t '2020/10/21/21' -- "grep 'Failed in OptIn Workflow'"
 ks
 pwd
 cd src/
-cd..
-brazil versionset clone --from Eeylops/mainline --to EeylopsDryRuns/dry-cr-$USER-$(date "+%Y-%m-%d") && brazil workspace --use --vs EeylopsDryRuns/dry-cr-$USER-$(date "+%Y-%m-%d")
 qry -o -t '2020/10/21/21' -- "grep 'ea3df788-e675-4c00-aeba-96872eec61ae'"
 qry -o -t '2020/10/21/21' -- "grep '219e410b-d504-49be-b61c-33075980b10a'"
-bb
 bbf && bb
-bwd
-cr
 nohup
-nds
 qry -- "grep -C10 'Failure while'"
 qry
 qry -t "2020/10/20/09"-- "grep -C10 'A283RJD52BT5NK'"
@@ -796,31 +759,256 @@ ssh cs-timber-fs-iad-1d-654113c3.us-east-1.amazon.com
 qry -t "2020/10/23/20" -- "grep -P 'OptInConfirmation'"
 qry -t "2020/10/23/22" -- "grep -P 'OptInConfirmation'"
 qry -t "2020/10/23/21" -- "grep -P 'OptInConfirmation'"
-t
 ssh eeylops-timber-fs-iad-1a-b98398c0.us-east-1.amazon.com
 qry -t "2020/10/23/22" -- "grep -P 'bc523dfd-beb8-4b6d-9acf-051e6a11decc'"
-s
 qry -t "2020/10/24/{00,01}" -- "grep -P 'OptInConfirmation'"
 tmux
 qry -t "2020/10/23/21" -- "grep -P 'OptInConfirmation|AYWE1S8TF9GMZ|A3RCQAS5DUW3PG|AP6XSHOQXZER0|A1MVBN8UYPUIYM|A2NQE3NABM9WEJ|A1A8PEUJ25GW5E|A2BFZQ6OLIQIWD|A16BC6DWZ5W26F' -C5"
 qry -t "2020/10/24/{00,01}" -- "grep -P -C2 'OptInConfirmation|AYWE1S8TF9GMZ|A3RCQAS5DUW3PG|AP6XSHOQXZER0|A1MVBN8UYPUIYM|A2NQE3NABM9WEJ|A1A8PEUJ25GW5E|A2BFZQ6OLIQIWD|A16BC6DWZ5W26F'"
 ta
-tls
-alias | fzf
 fzf alias
 vim
-ls
 cat .tmux.conf 
 vim .tmux.conf 
 cd src/EeylopsService
 cr-pull CR-35079488:1
-bbf
-d
-s
-ss
-cd cdd
-cs
 ca
 cas
 ca -s
 cau
+ca -u
+ccm "Add path adjustment"
+cs
+cp
+alias | fzf
+st
+cd cdd
+ss
+65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;37M65;34;37M65;34;37M65;34;37M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;33M65;34;33M65;34;33M65;34;33M65;34;33M65;34;33M65;34;33M65;34;33M65;34;33M65;34;33M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M65;34;38M
+tls
+0;56;10M0;56;10m
+qry -t "2020/10/27/18" -- "grep -P '112-6660839-5893068|112-3320110-8771446|A2BFZQ6OLIQIWD' -C15"
+cd EeylopsPredicates/
+cd src/EeylopsPredicates/
+qry -t 2020/10/29/12 -- grep -P 'A2BFZQ6OLIQIWD|114-8635436-1595418' -C15
+qry -t "2020/10/29/01" -- "grep -P 'A2BFZQ6OLIQIWD|114-8635436-1595418' -C15"
+qry -t "2020/10/29/12" -- "grep -P 'A2BFZQ6OLIQIWD|114-8635436-1595418' -C15"
+bbf
+npm clean
+which npm
+npm run clean
+npm ci
+yarn i
+cd lib/
+bran
+ruby bran
+ruby bran.rb
+ruby bran.rb tree
+ruby bran.rb tree components.yml
+ruby bran.rb components.yml
+ruby brandon.rb 
+t
+/bin/bash  /Volumes/workplace/local/repos/QuickScriptsOnRails/rb_prettier.sh 
+rspec
+bundle exec rspec
+which webpack
+webpack -v
+bundle i
+bundle config build.nio4r --with-cflags="-std=c99"
+bundle
+bin/webpack
+cd src/EeylopsCore/
+bwd
+bb
+git status
+yarn i "eslint-plugin-prettier/react
+"
+yarn i eslint-plugin-prettier/react
+yarn add eslint-plugin-prettier/react
+yarn add -D eslint-plugin-prettier/react
+prettier
+yarn upgrade
+yarn global add typescript@latest
+tsc -v
+yarn add -D sort-package-json
+npx sort-package-json
+yarn install --save @types/ace
+npm install --save @types/ace
+yarn add @types/ace
+yarn add -D eslint-plugin-react-hooks
+yarn add -D eslint-plugin-react react-performance react-hooks
+yarn upgrade --latest
+npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
+yarn add @types/react-router-dom
+npm run dev
+qry -t "2020/11/09/18" -- "grep -P 'Evaluated OptInDetail'"
+qry -t "2020/11/09/18" -- "grep -P 'ZCLEIDVUZ5DPYG7JKMWEG12DDIL1SUT4UA3MU4TUS1LIDDTPXTQ2EIA2OX4TK2M7' -C15"
+cd EeylopsControlPlane/
+cr
+qry -t "2020/11/09/18" -- "grep -P 'Failed to extract target data from Slapshot contract result: {}'"
+qry -t "2020/11/10/20" -- "grep -P 'Failed to extract target data from Slapshot contract result: {}'"
+qry -t "2020/11/10/22" -- "grep -P 'ERROR' -C 15"
+ssh narensub@eeylops-timber-fs-iad-1a-b98398c0.us-east-1.amazon.com
+zz
+brazil versionset clone --from Eeylops/mainline --to EeylopsDryRuns/dry-cr-$USER-$(date "+%Y-%m-%d") && brazil workspace --use --vs EeylopsDryRuns/dry-cr-$USER-$(date "+%Y-%m-%d")
+brazil versionset clone --from Eeylops/mainline --to EeylopsDryRuns/dry-testing-$USER-$(date "+%Y-%m-%d")
+d
+git clone https://github.com/pkellner/pluralsight-course-using-react-hooks.git
+yarn install -D react-json-print
+yarn add -D react-json-print
+nds
+yarn add -D react-json-view
+qry -t "2020/11/10/22" -- "grep -P 'prune' -C 15"
+qry -t "2020/11/10/22" -- "grep -P 'gss' -C 15"
+qry -t "2020/11/10/22" -- "grep -P 'Pruned.*OptIn' -C 15"
+cd timber/11-17-2020/
+ggrep -P 'prune.*optin' 15-38-27_P-NA_2020-11-10-22_file_name.txt | tee filter.txt 
+ggrep -P 'Pruned' 15-38-27_P-NA_2020-11-10-22_file_name.txt | tee filter.txt 
+which touch
+touch 1_run_webpack.sh
+touch 2_run_rails.sh
+bin/rails s -e development
+bin/webpack-dev-server
+yarn remove react-scripts
+yarn add -D react-test-renderer
+yarn add js-yaml
+yarn add -D @types/js-yaml
+yarn add jest-webpack-resolver -D
+bash 1_serve_webpack.sh 
+yarn add -D react-error-boundary
+exit
+/bin/bash  /Volumes/workplace/local/repos/QuickScriptsOnRails/1_serve_webpack.sh 
+yarn add -D enzyme-adapter-react-16 enzyme
+yarn add -D 
+yarn add -D react-testing-library
+yarn remove -D react-testing-library
+yarn remove react-testing-library
+yarn remove -D @testing-library/react
+yarn add -D @testing-library/react
+cd 
+cd workplace/local/
+cd repos/
+cd QuickScriptsProto/
+git clone --bare https://github.com/ufo2mstar/react-typescript-rails-simple-integration.git
+cd react-typescript-rails-simple-integration.git/
+git push --mirror https://github.com/ufo2mstar/QuickScripts.git
+rm -rf react-typescript-rails-simple-integration.git/
+cd QuickScripts
+git config
+git config --list
+git rebase --root -i
+git filter-branch --env-filter 'GIT_COMMITTER_DATE=$GIT_AUTHOR_DATE; export GIT_COMMITTER_DATE'
+git filter-branch --env-filter 'GIT_COMMITTER_DATE=$GIT_AUTHOR_DATE; export GIT_COMMITTER_DATE' -f
+git filter-branch --commit-filter -f '
+git filter-branch --commit-filter '
+        fi' HEAD -f
+git filter-branch -f --commit-filter '
+        if [ "$GIT_AUTHOR_EMAIL" = "1llyanovohatskyy@gmail.com" ];
+        then
+                GIT_AUTHOR_NAME="Naren Siva Subramani";
+                GIT_AUTHOR_EMAIL="narensub@amazon.com";
+        else
+                git commit-tree "$@";
+        fi' HEAD
+GIT_COMMITTER_DATE="Mon 04 Apr 2010 14:56:00 EST" git commit --amend --no-edit --date "Thu 01 Oct 2020 21:00:00 EST"
+GIT_COMMITTER_DATE="Thu 01 Oct 2020 21:00:00 EST" git commit --amend --no-edit --date "`date`"
+GIT_COMMITTER_DATE="`date`" git commit --amend --no-edit --date "`date`"
+git rebase -i --root
+brew install git-redat
+brew tap PotatoLabs/homebrew-git-redate
+brew install git-redate
+git redate -c 100
+git redate -c 300
+git redate
+git dag
+git redate --all
+git redate --help
+git redate -c
+git-redate --all
+git clone https://github.com/ufo2mstar/QuickScripts.git
+/bin/bash  /Volumes/workplace/local/repos/QuickScriptsOnRails/2_serve_rails.sh 
+bin/rails db:migrate RAILS_ENV=development
+s
+npm install -g yarn
+which yarn
+yarn add query-string
+cd workplace/local/repos/QuickScripts
+./2_serve_rails.sh
+bash ./2_serve_rails.sh
+ipconfig
+yarn add react-copy-to-clipboard
+yarn add react-toastify
+yarn add @types/react-toastify
+yarn add xstate
+/bin/bash  /Volumes/workplace/local/repos/QuickScripts/2_serve_rails.sh 
+yarn add darkreader
+yarn add intro.js-react
+ls
+git clone https://github.com/MaximeHeckel/react-hook-context-emotion-dark-mode.git
+cs react-hook-context-emotion-dark-mode/
+cd react-hook-context-emotion-dark-mode/
+yarn add -D framer-motion
+yarn add -D @emotion/styled
+yarn add @emotion/react
+cd..
+git clone https://github.com/MaximeHeckel/gatsby-theme-maximeheckel.git
+cd gatsby-theme-maximeheckel/
+yarn install
+yarn add emotion-theming Mousetrap
+yarn add emotion-theming mousetrap
+yarb start
+yarn start
+/bin/bash  /Volumes/workplace/local/repos/QuickScripts/1_serve_webpack.sh 
+Xcode openssl zlib readline
+openssl
+which zlib
+zlib
+bi Xcode
+bi xcodegen
+xcode
+Xcode
+xcodegen
+cd workplace/local/repos/
+git clone https://github.com/aws/aws-elastic-beanstalk-cli-setup.git
+./aws-elastic-beanstalk-cli-setup/scripts/bundled_installer
+bi zlib
+which zlib
+zlib
+bi readline
+which zlib
+bi zlib
+pip
+which pip
+which python
+python3
+cd workplace/local/repos/
+./aws-elastic-beanstalk-cli-setup/scripts/bundled_installer
+bi openssl
+brew upgrade openssl@1.1
+brew info zlib
+brew install zlib openssl readline
+CFLAGS="-I$(brew --prefix openssl)/include -I$(brew --prefix readline)/include -I$(xcrun --show-sdk-path)/usr/include" LDFLAGS="-L$(brew --prefix openssl)/lib -L$(brew --prefix readline)/lib -L$(brew --prefix zlib)/lib"
+./aws-elastic-beanstalk-cli-setup/scripts/bundled_installer | tee 'bundled_inst.txt'
+yarn add bootstrap-switch-button-react
+yarn add react-split
+eb
+c
+c log
+alias c | fzf
+alias | fzf
+cs
+ca
+cs
+cad
+cs
+cd
+config | f
+config | fzf
+alias | fzf
+ca .
+ls
+cs
+ca .bash_history
+cs
+la
+la bash
