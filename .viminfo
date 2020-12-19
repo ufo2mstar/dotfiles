@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:q
-|2,0,1606600146,,"q"
 :wq
-|2,0,1606599953,,"wq"
+|2,0,1607926521,,"wq"
+:q
+|2,0,1607632740,,"q"
 :Q
 |2,0,1579198062,,"Q"
 :wq!
@@ -35,38 +35,174 @@
 	pick
 |3,0,0,0,1,0,1606592582,"pick"
 ""-	CHAR	0
-	8T16:23
-|3,1,36,0,1,0,1606599925,"8T16:23"
+	4
+|3,1,36,0,1,0,1607926508,"4"
 
 # File marks:
-'0  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
-|4,48,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
-'1  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
-|4,49,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
-'2  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
-|4,50,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
-'3  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB
-|4,51,1,0,1606599776,"/Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB"
-'4  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,52,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
-'5  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,53,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
-'6  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,54,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
-'7  108  74  /Volumes/workplace/local/repos/QuickScripts/gitblah-69ba
-|4,55,108,74,1606599398,"/Volumes/workplace/local/repos/QuickScripts/gitblah-69ba"
-'8  100  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-Fttw
-|4,56,100,0,1606599222,"/Volumes/workplace/local/repos/QuickScripts/gitblah-Fttw"
-'9  1  0  /Volumes/workplace/local/repos/QuickScripts/.git/rebase-merge/git-rebase-todo
-|4,57,1,0,1606598720,"/Volumes/workplace/local/repos/QuickScripts/.git/rebase-merge/git-rebase-todo"
+'0  1  12  /Volumes/workplace/local/repos/QuickScripts/gitblah-ulTC
+|4,48,1,12,1607926521,"/Volumes/workplace/local/repos/QuickScripts/gitblah-ulTC"
+'1  1  16  /Volumes/workplace/local/repos/QuickScripts/gitblah-H30u
+|4,49,1,16,1607926450,"/Volumes/workplace/local/repos/QuickScripts/gitblah-H30u"
+'2  1  0  /private/var/folders/g5/9dr_lzbx4dg6vlb6m8hf8l8swn5q1_/T/42199.credentials.yml
+|4,50,1,0,1607659831,"/private/var/folders/g5/9dr_lzbx4dg6vlb6m8hf8l8swn5q1_/T/42199.credentials.yml"
+'3  35  0  ~/ruby-getting-started/Gemfile
+|4,51,35,0,1607632740,"~/ruby-getting-started/Gemfile"
+'4  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,52,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
+'5  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,53,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+'6  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,54,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+'7  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB
+|4,55,1,0,1606599776,"/Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB"
+'8  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
+|4,56,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
+'9  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
+|4,57,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
 
 # Jumplist (newest first):
+-'  1  12  /Volumes/workplace/local/repos/QuickScripts/gitblah-ulTC
+|4,39,1,12,1607926521,"/Volumes/workplace/local/repos/QuickScripts/gitblah-ulTC"
+-'  1  16  /Volumes/workplace/local/repos/QuickScripts/gitblah-H30u
+|4,39,1,16,1607926450,"/Volumes/workplace/local/repos/QuickScripts/gitblah-H30u"
+-'  1  16  /Volumes/workplace/local/repos/QuickScripts/gitblah-H30u
+|4,39,1,16,1607926450,"/Volumes/workplace/local/repos/QuickScripts/gitblah-H30u"
+-'  1  0  /private/var/folders/g5/9dr_lzbx4dg6vlb6m8hf8l8swn5q1_/T/42199.credentials.yml
+|4,39,1,0,1607659831,"/private/var/folders/g5/9dr_lzbx4dg6vlb6m8hf8l8swn5q1_/T/42199.credentials.yml"
+-'  1  0  /private/var/folders/g5/9dr_lzbx4dg6vlb6m8hf8l8swn5q1_/T/42199.credentials.yml
+|4,39,1,0,1607659831,"/private/var/folders/g5/9dr_lzbx4dg6vlb6m8hf8l8swn5q1_/T/42199.credentials.yml"
+-'  1  0  /private/var/folders/g5/9dr_lzbx4dg6vlb6m8hf8l8swn5q1_/T/42199.credentials.yml
+|4,39,1,0,1607659831,"/private/var/folders/g5/9dr_lzbx4dg6vlb6m8hf8l8swn5q1_/T/42199.credentials.yml"
+-'  1  0  /private/var/folders/g5/9dr_lzbx4dg6vlb6m8hf8l8swn5q1_/T/42199.credentials.yml
+|4,39,1,0,1607659831,"/private/var/folders/g5/9dr_lzbx4dg6vlb6m8hf8l8swn5q1_/T/42199.credentials.yml"
+-'  35  0  ~/ruby-getting-started/Gemfile
+|4,39,35,0,1607632740,"~/ruby-getting-started/Gemfile"
+-'  35  0  ~/ruby-getting-started/Gemfile
+|4,39,35,0,1607632740,"~/ruby-getting-started/Gemfile"
+-'  35  0  ~/ruby-getting-started/Gemfile
+|4,39,35,0,1607632740,"~/ruby-getting-started/Gemfile"
+-'  35  0  ~/ruby-getting-started/Gemfile
+|4,39,35,0,1607632740,"~/ruby-getting-started/Gemfile"
+-'  35  0  ~/ruby-getting-started/Gemfile
+|4,39,35,0,1607632740,"~/ruby-getting-started/Gemfile"
+-'  35  0  ~/ruby-getting-started/Gemfile
+|4,39,35,0,1607632740,"~/ruby-getting-started/Gemfile"
+-'  35  0  ~/ruby-getting-started/Gemfile
+|4,39,35,0,1607632740,"~/ruby-getting-started/Gemfile"
+-'  35  0  ~/ruby-getting-started/Gemfile
+|4,39,35,0,1607632740,"~/ruby-getting-started/Gemfile"
+-'  1  0  ~/ruby-getting-started/Gemfile
+|4,39,1,0,1607632730,"~/ruby-getting-started/Gemfile"
+-'  1  0  ~/ruby-getting-started/Gemfile
+|4,39,1,0,1607632730,"~/ruby-getting-started/Gemfile"
+-'  1  0  ~/ruby-getting-started/Gemfile
+|4,39,1,0,1607632730,"~/ruby-getting-started/Gemfile"
+-'  1  0  ~/ruby-getting-started/Gemfile
+|4,39,1,0,1607632730,"~/ruby-getting-started/Gemfile"
+-'  1  0  ~/ruby-getting-started/Gemfile
+|4,39,1,0,1607632730,"~/ruby-getting-started/Gemfile"
+-'  1  0  ~/ruby-getting-started/Gemfile
+|4,39,1,0,1607632730,"~/ruby-getting-started/Gemfile"
+-'  1  0  ~/ruby-getting-started/Gemfile
+|4,39,1,0,1607632730,"~/ruby-getting-started/Gemfile"
+-'  1  0  ~/ruby-getting-started/Gemfile
+|4,39,1,0,1607632730,"~/ruby-getting-started/Gemfile"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
+|4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
 -'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
 |4,39,1,0,1606600146,"/Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2"
 -'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
 |4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
 -'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
 |4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
+-'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM
+|4,39,1,0,1606600129,"/Volumes/workplace/local/repos/QuickScripts/gitblah-GQnM"
 -'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
 |4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
 -'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
@@ -75,194 +211,80 @@
 |4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
 -'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
 |4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB
-|4,39,1,0,1606599776,"/Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB
-|4,39,1,0,1606599776,"/Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB
-|4,39,1,0,1606599776,"/Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB
-|4,39,1,0,1606599776,"/Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB
-|4,39,1,0,1606599776,"/Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB
-|4,39,1,0,1606599776,"/Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB
-|4,39,1,0,1606599776,"/Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB
-|4,39,1,0,1606599776,"/Volumes/workplace/local/repos/QuickScripts/gitblah-7jbB"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  5  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,5,0,1606599754,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4
-|4,39,1,0,1606599748,"/Volumes/workplace/local/repos/QuickScripts/gitblah-pFE4"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv
-|4,39,1,0,1606599566,"/Volumes/workplace/local/repos/QuickScripts/gitblah-IFhv"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
--'  1  0  /Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz
-|4,39,1,0,1606599532,"/Volumes/workplace/local/repos/QuickScripts/gitblah-9pBz"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
+-'  1  9  /Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3
+|4,39,1,9,1606599953,"/Volumes/workplace/local/repos/QuickScripts/gitblah-JFd3"
 
 # History of marks within files (newest to oldest):
+
+> /Volumes/workplace/local/repos/QuickScripts/gitblah-ulTC
+	*	1607926520	0
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	12
+
+> /Volumes/workplace/local/repos/QuickScripts/gitblah-H30u
+	*	1607926449	0
+	"	1	16
+	^	1	17
+	.	1	15
+	+	1	15
+
+> /private/var/folders/g5/9dr_lzbx4dg6vlb6m8hf8l8swn5q1_/T/42199.credentials.yml
+	*	1607659617	0
+	"	1	0
+
+> ~/ruby-getting-started/Gemfile
+	*	1607632736	0
+	"	35	0
 
 > /Volumes/workplace/local/repos/QuickScripts/gitblah-wCg2
 	*	1606600145	0

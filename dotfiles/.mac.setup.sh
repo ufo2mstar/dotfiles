@@ -55,6 +55,7 @@ export _Z_CMD="j"
 # run only if rbenv is present
 if which rbenv >/dev/null; then eval "$(rbenv init -)"; fi
 
+
 # https://builderhub.corp.amazon.com/docs/brazil/cli-guide/setup-macos.html
 # /usr/libexec/java_home -V
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home"
@@ -100,3 +101,15 @@ path_append $HOME/.toolbox/bin:$HOME/bin:/usr/local/bin
 # 
 # successfully installed
 path_append $HOME/.ebcli-virtual-env/executables
+
+
+# -----
+
+# https://dataschool.com/learn-sql/how-to-start-a-postgresql-server-on-mac-os-x/
+# pg_ctl -D /usr/local/var/postgres start
+
+# https://chartio.com/resources/tutorials/how-to-start-postgresql-server-on-mac-os-x/
+# This will start Postgres (assuming default directories):
+pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+# # And this will stop Postgres:
+# pg_ctl -D /usr/local/var/postgres stop -s -m fast
