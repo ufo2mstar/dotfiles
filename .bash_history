@@ -253,7 +253,6 @@ draw_sep(){     echo $(printf "%$1s" | tr " " "${$2:--}")   }
 draw_sep 20
 cd 08-08-2020/
 cat 22-37-23_O-EU_2020-08-08_test.txt 
-a
 aa=${date}
 aa
 $aa
@@ -290,7 +289,6 @@ cat 00-24-46_O-EU_2020-08-08_any-nonspaced_andReasonablyEscaped~string.txt
 cd random\ onebox\ gzs/
 grap -n '' ssampapplication.log.2020-06-25-23.eeylops-onebox-na-1e-e54d1b07.us-east-1.amazon.com.txt | grep '009f0639-4865-473e-af1a-3d18d2122ca2' | tee 'eg-ss-rtn_del.txt'
 ggrep -n '' ssampapplication.log.2020-06-25-23.eeylops-onebox-na-1e-e54d1b07.us-east-1.amazon.com.txt | grep '009f0639-4865-473e-af1a-3d18d2122ca2' | tee 'eg-ss-rtn_del.txt'
-
 yarn add prettier-plugin-java --dev
 npx prettier --write "**/*.java"
 yarn add -D prettier
@@ -305,10 +303,130 @@ prettier -c *
 prettier -c **
 npx prettier "**/*.java"
 prettier
-cs
 cad
 ca
 c
-cs
 alias | fzf
 alias cau="conf add -u"
+cau
+ccm "add postgres autostart"
+cs
+brew install --HEAD homebrew/head-only/gitstats
+brew install gitstats
+brew install --HEAD homebrew/gitstats
+npm i -g gitinspector
+docker run hello-world
+cd workplace/local/repos/
+bi gh
+gh repo clone alexejsailer/git-analytics-docker
+git init
+git remote origin Add java scratcheseeed09bNaren Siva Subramani <narensub@amazon.com>Dec 22, 2020 at 2:03 AM
+gh auth login
+gh
+gh help
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/ufo2mstar/scratches.git
+git pull
+git rm --cached -r .idea/
+bundle i
+bran
+cd lib
+brah
+ruby bran
+ruby bran.rb
+bran help
+ruby bran.rb help
+/bin/bash /Volumes/workplace/local/repos/QuickScripts/1_serve_webpack.sh
+heroku
+heroku ps:exec
+irb
+yarn add fuse.js
+yarn remove fuse
+rails generate rspec:install
+rails g rswag:install
+rake rswag:specs:swaggerize
+docker pull bitjourney/plantuml-service
+fuzzysearch-highlight
+yarn add fuzzysearch-highlight
+yarn add react-highlight-words
+kinit
+nvm
+which node
+cd GSFHawkClientReactApp/
+npm install
+bb
+bwp
+ruby 0v
+which ruby
+which brazil
+brazil -v
+brazil --help
+brazil --version
+./bin\rails s -e production
+zz | fzf
+z
+14
+cd~
+cd ~
+cd workplace/local/repos/QuickScripts
+cd
+bin\rails s -e production
+cd repos/QuickScripts
+rake secret
+bin/rails s -e production
+bin/webpack
+ruby -v
+rbenv
+rbenv global
+rbenc which
+rbenv which
+rbenv whence
+rbenv versions
+rbenv local
+cd Downloads/
+chmod 400 quickscript.pem
+ssh -i "quickscript.pem" ec2-user@ec2-3-84-47-47.compute-1.amazonaws.com"
+
+cp quickscript.pem ~/workplace/local/repos/QuickScripts
+zd
+cd ~/workplace/local/repos/QuickScripts/
+a
+chmod 400 quickscript.pem 
+zz
+cd repos/QuickScripts/
+cd host/
+d
+ssh -i "quickscript.pem" ec2-user@ec2-3-84-47-47.compute-1.amazonaws.com
+s
+git add .
+mkdir -p PUMLS
+git ls-tree master --name-only
+git branches
+git branche
+git branch
+git ls-tree main --name-only|xargs -I{} git mv {} PUML
+git ls-tree main --name-only
+la
+git ls-tree main --name-only|xargs -I{} git mv PUML {}
+git ls-tree main --name-only|xargs -I{} git mv PUML ../
+git ls-tree main --name-only|xargs -I{} git mv PUML ./
+pwd
+open .
+cd scratches/
+git
+git pull orifin
+git pull origin
+git reset
+mkdir -p PUML
+cd pumls/
+cd PUML/
+cd..
+cd pumls
+git dag
+git log
+git checkout d3e69799355e3ac60b2102d67a8bc10d648d9888
+git reflog
+git status
+git restore .
+ls
