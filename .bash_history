@@ -465,3 +465,21 @@ cad
 ccm "update history"
 c dag
 car
+cau
+c dag
+cs
+ccm "update history"
+c push
+cd cdd
+which git
+c remote
+git remote
+cau
+cd..
+cau
+cs
+ca .zshrc
+cs
+c dag
+c add .zshrc
+cs
