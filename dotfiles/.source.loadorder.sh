@@ -67,6 +67,8 @@ declare -a done=()
 # # Pre-source
 echo "Pre-Hook"
 source $HOME/dotfiles/.source.pre.sh
+
+# todo: fix zsh cdd loader
 declare skips="source|cdd|zsh"
 for i in "${order[@]}"; do
     # echo "$i"
