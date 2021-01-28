@@ -213,7 +213,6 @@ print '\n%20s\n' | tr ' ' '-'
 printf '\n%20s\n' | tr ' ' '-'
 printf '\n%20s\n\n' | tr ' ' '-'
 k=$(printf '\n%20s\n\n' | tr ' ' '-')
-k
 `'ls'`
 echo $_lastfile
 $SECONDS
@@ -326,7 +325,6 @@ gh
 gh help
 git branch -M main
 git push -u origin main
-git remote add origin https://github.com/ufo2mstar/scratches.git
 git pull
 git rm --cached -r .idea/
 bundle i
@@ -355,8 +353,6 @@ nvm
 which node
 cd GSFHawkClientReactApp/
 npm install
-bb
-bwp
 ruby 0v
 which ruby
 which brazil
@@ -393,13 +389,9 @@ zd
 cd ~/workplace/local/repos/QuickScripts/
 a
 chmod 400 quickscript.pem 
-zz
 cd repos/QuickScripts/
 cd host/
-d
 ssh -i "quickscript.pem" ec2-user@ec2-3-84-47-47.compute-1.amazonaws.com
-s
-git add .
 mkdir -p PUMLS
 git ls-tree master --name-only
 git branches
@@ -421,12 +413,55 @@ git reset
 mkdir -p PUML
 cd pumls/
 cd PUML/
-cd..
 cd pumls
-git dag
 git log
 git checkout d3e69799355e3ac60b2102d67a8bc10d648d9888
 git reflog
-git status
 git restore .
+k
 ls
+git add .
+git remotes
+git commit -m "Add JS and SQL cats and move files"
+git remote
+git remote add origin https://github.com/ufo2mstar/scratches.git
+git dag
+cd workplace/
+bwpp GSFHawkNotificationServiceLambdaLpt
+cdd
+cd workplace/lpt/
+bwsm
+alias bwsm
+bwpp GSFHawkClientBaseLpt
+cd lpt/
+cr --help
+cr --include GSFHawkClientStaticWebsiteLpt,GSFHawkNotificationServiceLambdaLpt
+bwp
+cd..
+cd GSFHawkServiceLambda/
+bwpp
+bsps
+cd src/GSFHawkServiceLambda
+d
+cd src/
+bb
+nds
+cd GSFHawkServiceLambdaTests/
+s
+fasd
+zz
+cd GSFHawkServiceLambda/src/GSFHawk
+cd GSFHawkServiceLambda/src/GSFHawkServiceLambdaTests/
+git status
+ls
+ss
+c
+c remote
+c remote list
+c remote -v
+c status
+ca
+cad
+ccm "update history"
+c dag
+car
