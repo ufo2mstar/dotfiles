@@ -95,7 +95,8 @@ alias c="conf"
 alias cs="conf status"
 alias ca="conf add"
 alias cau="conf add -u"
-alias cad="conf add ~/dotfiles/."
+alias cad="conf add ~/dotfiles/. -f"
+alias caa="cau && cad"
 alias ccm="conf commit -m"
 
 # to be at the end!

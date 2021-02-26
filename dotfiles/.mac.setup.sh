@@ -89,7 +89,7 @@ alias dv="ssh dev -vvv"
 
 # = Path Changes
 # MAC setup
-path_append $HOME/.toolbox/bin:$HOME/bin:/usr/local/bin
+path_append $HOME/.toolbox/bin:$HOME/bin:$HOME/.rodar/bin:/usr/local/bin
 
 # Elastic Beanstalk CLI
 # got after these commands:

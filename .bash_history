@@ -302,14 +302,9 @@ prettier -c *
 prettier -c **
 npx prettier "**/*.java"
 prettier
-cad
-ca
-c
 alias | fzf
 alias cau="conf add -u"
-cau
 ccm "add postgres autostart"
-cs
 brew install --HEAD homebrew/head-only/gitstats
 brew install gitstats
 brew install --HEAD homebrew/gitstats
@@ -348,13 +343,11 @@ docker pull bitjourney/plantuml-service
 fuzzysearch-highlight
 yarn add fuzzysearch-highlight
 yarn add react-highlight-words
-kinit
 nvm
 which node
 cd GSFHawkClientReactApp/
 npm install
 ruby 0v
-which ruby
 which brazil
 brazil -v
 brazil --help
@@ -419,11 +412,8 @@ git checkout d3e69799355e3ac60b2102d67a8bc10d648d9888
 git reflog
 git restore .
 k
-ls
-git add .
 git remotes
 git commit -m "Add JS and SQL cats and move files"
-git remote
 git remote add origin https://github.com/ufo2mstar/scratches.git
 git dag
 cd workplace/
@@ -437,49 +427,142 @@ cd lpt/
 cr --help
 cr --include GSFHawkClientStaticWebsiteLpt,GSFHawkNotificationServiceLambdaLpt
 bwp
-cd..
 cd GSFHawkServiceLambda/
 bwpp
-bsps
 cd src/GSFHawkServiceLambda
-d
 cd src/
-bb
-nds
 cd GSFHawkServiceLambdaTests/
-s
 fasd
-zz
 cd GSFHawkServiceLambda/src/GSFHawk
 cd GSFHawkServiceLambda/src/GSFHawkServiceLambdaTests/
-git status
-ls
-ss
 c
-c remote
 c remote list
 c remote -v
 c status
 ca
-cad
-ccm "update history"
-c dag
 car
-cau
-c dag
-cs
 ccm "update history"
-c push
 cd cdd
 which git
 c remote
 git remote
-cau
-cd..
-cau
-cs
 ca .zshrc
-cs
 c dag
 c add .zshrc
+git add .vim_runtime/*
+git add .vim_runtime/* -f
+ccm "add vimruntime"
+c push
+rde
+toolbox update rde
+brew install bash-completion
+cat ~/.config/rde/config.yml
+cd workplace/**ls
+brew install coreutils tree highlight
+00~brew cleanup01~
+sudo chown -R $(whoami) /usr/local
+coreutils
+ss
+alias rr
+rw
+brazil-package-cache stop
+brazil-package-cache start
+00~rde env setup ecr01~
+nds
+git rm .DS_Store
+git rm PUML/.DS_Store
+git pull gitfarm mainline --allow-unrelated-histories
+git pull origin master --allow-unrelated-histories
+git pull origin main --allow-unrelated-histories
+git rebase -i HEAD~n
+git rebase -i HEAD
+git rebase -i HEAD~3
+git rebase -i mainline
+git rebase -i HEAD~3 mainline
+git status
+git add .
+bsps
+cd src/GSFHawkTCDAMsgFilterServiceLambda
+cd src/GSFHawkServiceDAL/
+bb
+aws
+bi aws
+ada
+toolbox install ada
+bi awscli
+ada credentials print --account=746425772723 --provider=conduit --role=Admin
+ada credentials print --account=284220813370 --provider=conduit --role=Admin
+/Users/narensub/.toolbox/bin/ada credentials print --account 284220813370 --provider=isengard --role=Admin
+/Users/narensub/.toolbox/bin/ada credentials print --account 284220813370 --role=Admin
+brew update
+toolbox update
+brew install amazon/amazon/mwinit
+brew cleanu
+brew cleanup
+rde env setup completion
+rde env setup ecr
+rde env validate
+/Users/narensub/.toolbox/bin/ada credentials print --account 284220813370 --provider=conduit --role=Admin
+aws configure
+aws lambda get-account-settings
+which mwinit
+mwinit -v
+mwinit --version
+cd SCRIPTS/
+bundle install
+s
+d
+bi pandoc
+zz
+cd repos/
+git clone https://github.com/benbc/cloud-formation-viz.git
+cd cloud-formation-viz/
+python -m venv .venv 
+source .venv/bin/activate
+python setup.py install
+which cfviz
+cd eg/
+cfviz template.yml 
+cd.
+cd samples/
+gda
+which ruby
+brew install libgda
+gem i gda
+cd workplace
+cd..
+brazil-bootstrap -vs live -p WikiClient-2.0 --environmentRoot /tmp/wiki
+curl
+kinit
+curl "https://code.amazon.com/packages/Rodar/blobs/mainline/--/install.sh?raw=1" -L --anyauth --location-trusted -u: -c /tmp/cookies.txt -b /tmp/cookies.txt -sSf  -L | bash
+#!/bin/bash
+set -euo pipefail
+echo This script will install Rodar.
+echo "    Press ENTER to continue, or Ctrl-C to abort now."
+read
+rodar_pkg=$HOME/.rodar/pkg
+rodar_bin=$HOME/.rodar/bin
+if [[ -d $rodar_pkg ]]; then     rm -rf $rodar_pkg; fi
+git clone ssh://git.amazon.com:2222/pkg/Rodar $rodar_pkg
+mkdir -p $rodar_bin
+if [[ ! -f $rodar_bin/rod ]]; then     ln -s $rodar_pkg/rod $rodar_bin; fi
+echo Cloning done! Only one more step to go!
+echo "    Please add '~/.rodar/bin' to your PATH"
+echo ----------------------------------------------------------------------
+echo "Please edit your .bashrc (or equivalent) and add the following to the end:"
+echo "    export PATH=~/.rodar/bin:\$PATH"
+echo
+echo "Then restart your shell."
+cad
+rodar
+rod
+which rod
+cd dotfiles/
+ca .
+ca one_liners 
+cad -f
+ls
+alias ca
+cau
 cs
+s
